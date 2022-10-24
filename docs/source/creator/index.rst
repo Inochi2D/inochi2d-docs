@@ -10,7 +10,7 @@ These distortions can trick the end user in to perciving 3D depth in the 2D art.
 
 If you are a VTuber wanting to use Inochi2D we highly recommend checking out `Inochi Session <https://github.com/Inochi2D/inochi-session>`_ as well.
 
-To get started check out our `Getting Started Guide <./getting-started>`_
+To get started check out our `Getting Started Guide <./getting-started.html>`_
 
 .. toctree::
    :maxdepth: 1
