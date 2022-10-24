@@ -9,3 +9,14 @@ This page contains the documentation for Inochi Creator, Inochi Session and Inoc
 Translating this documentation
 ==============================
 To translate this documentation to your language, see `The Sphinx Documentation <https://docs.readthedocs.io/en/stable/guides/manage-translations-sphinx.html#manually>`_
+
+
+Attribution & License
+=====================
+Parts of this documentation borrows and references from the `Godot Documentation <https://github.com/godotengine/godot-docs>`__.
+
+Godot's Documentation is under the CC 3.0 Attribution License, which you can find `here <https://github.com/godotengine/godot-docs/blob/master/LICENSE.txt>`__
+
+The Inochi2D Documentation text is likewise released under the CC 3.0 Attribution License, some branding assets are copyright the Inochi2D project.
+
+See the `branding <https://github.com/Inochi2D/branding>`__ repo for more info.
