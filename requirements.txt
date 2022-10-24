@@ -1,0 +1,4 @@
+# Python packages needed to build on ReadTheDocs
+sphinxext_opengraph
+sphinx_tabs
+sphinx-notfound-page
