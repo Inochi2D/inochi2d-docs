@@ -1,5 +1,5 @@
-Getting Started with Inochi Creator
-===================================
+Getting Started
+===============
 
 System Requirements
 -------------------

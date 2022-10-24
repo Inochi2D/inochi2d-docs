@@ -39,12 +39,17 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_css_files = [
     "css/style.css",
 ]
+
+html_js_files = [
+    "js/instant.js",
+]
+
 html_static_path = ["_static"]
 html_logo = "_static/inochi2d.png"
 
 # Theme options
 html_theme_options = {
-    
+
     # if we have a html_logo below, this shows /only/ the logo with no title text
     "logo_only": True,
 
