@@ -7,6 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 from gettext import gettext
+import sphinx_rtd_theme
 
 
 project = 'Inochi2D'
@@ -16,8 +17,10 @@ release = '0.7'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
-extensions = []
+extensions = [
+    "sphinx_tabs.tabs",
+    "sphinxext.opengraph",
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -31,5 +34,9 @@ gettext_compact = False
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
-html_static_path = ['_static']
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_css_files = [
+    "css/style.css",
+]
+html_static_path = ["_static"]
