@@ -40,3 +40,14 @@ html_css_files = [
     "css/style.css",
 ]
 html_static_path = ["_static"]
+html_logo = "_static/inochi2d.png"
+
+# Theme options
+html_theme_options = {
+    
+    # if we have a html_logo below, this shows /only/ the logo with no title text
+    "logo_only": True,
+
+    # Collapse navigation (False makes it tree-like)
+    "collapse_navigation": False,
+}
