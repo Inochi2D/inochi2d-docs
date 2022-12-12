@@ -46,6 +46,8 @@ html_js_files = [
 
 html_static_path = ["_static"]
 html_logo = "_static/inochi2d.png"
+html_favicon = "_static/favicon.ico"
+
 
 # Theme options
 html_theme_options = {
