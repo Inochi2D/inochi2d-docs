@@ -13,6 +13,7 @@ If you are a VTuber wanting to use Inochi2D we highly recommend checking out `In
 To get started check out our `Getting Started Guide <./getting-started.html>`_
 
 .. toctree::
+   :hidden:
    :maxdepth: 1
    :caption: Inochi Creator
    :name: topic-creator

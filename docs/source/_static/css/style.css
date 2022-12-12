@@ -221,6 +221,12 @@ legend,
     font-weight: 500;
 }
 
+/* Ada specific tweak */
+.rst-content .ada {
+    margin: 0px;
+    float: left;
+}
+
 /* See <https://github.com/godotengine/godot-docs/pull/5876> for context. */
 .rst-content .align-right,
 .rst-content .align-left {
@@ -734,8 +740,8 @@ code,
 }
 
 /* Admonition tweaks */
-
 .rst-content .admonition.note,
+.rst-content .admonition.custom,
 .rst-content .admonition.seealso {
     background-color: var(--admonition-note-background-color);
     color: var(--admonition-note-color);
@@ -1031,6 +1037,11 @@ kbd.compound > .kbd,
 
 .rst-versions .rst-other-versions dd a:hover {
     text-decoration: underline;
+}
+
+.ada-block {
+    display: inline-block;
+    width: 100%;
 }
 
 .rst-versions .rst-other-versions {
