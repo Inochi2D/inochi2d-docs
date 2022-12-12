@@ -54,6 +54,18 @@ but also the latest bugs.
 If you use *Itch.io's Launcher* or *Flatpak*, Inochi Creator will automatically stay updated.
 Our ZIP and DMG packages do currently not auto-update, but we plan to change this in the future.
 
+.. danger::
+  .. compound::
+
+    .. image:: /img/ada-warning.png
+      :class: ada
+      :align: left
+      :width: 128px
+    
+    Nightly builds are not stable, we really don't recommend using them unless you know what you're doing. Nightly builds are likely to crash and can corrupt your files in the process!
+
+    Make frequent backups!
+
 -----------
 
 First Time Setup
