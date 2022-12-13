@@ -9,4 +9,5 @@ TODO: Documentation for the Inochi2D specification.
    :caption: Inochi2D
    :name: topic-i2d
 
+   faq
    spec/index
