@@ -43,7 +43,7 @@ Format Layout
       - Texture Count
       - Amount of textures in the texture section
     * - *Till Texture Blob End*
-      - `Texture Blob <#texture-blob>`_
+      - `Texture Blob <#texture-blob>`__
       - Contains a texture and tag denoting what type the texture is.
     * - 8
       - ``EXT_SECT``
@@ -52,7 +52,7 @@ Format Layout
       - Payload Count
       - **IF EXT_SECT EXISTS** Amount of payloads that are in this section
     * - *Till EXT Section End*
-      - `EXT Section Blob <#extended-vendor-data-blob>`_
+      - `EXT Section Blob <#extended-vendor-data-blob>`__
       - **IF EXT_SECT EXISTS** The section blob of this EXT section.
 
 Texture Blob
@@ -70,7 +70,7 @@ Every texture entry in the Texture Blob have the following encoding
       - Texture Payload Length
       - Length of the Texture Payload
     * - 1
-      - `Texture Encoding <#texture-encoding>`_
+      - `Texture Encoding <#texture-encoding>`__
       - A byte defining what texture encoding is in use. See Texture Encoding section.
     * - *Payload Length*
       - Texture Data
@@ -78,6 +78,7 @@ Every texture entry in the Texture Blob have the following encoding
 
 Extended Vendor Data Blob
 -------------------------
+
 .. list-table:: 
     :header-rows: 1
 
