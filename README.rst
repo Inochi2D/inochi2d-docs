@@ -5,6 +5,8 @@ Inochi2D Documentation
 
 This page contains the documentation for Inochi Creator, Inochi Session and Inochi2D.
 
+The documentation page can be viewed on `docs.inochi2d.com <httos://docs.inochi2d.com>`__.
+
 
 Setting up translation environment
 ==================================
