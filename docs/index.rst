@@ -8,7 +8,8 @@ Use the sidebar on the left to select a project to get documentation from, and a
 What is Inochi2D?
 -----------------
 
-Inochi2D is an open source specification for a 2D character animation system that allows characters to be animated in real-time for games and VTubing. Inochi2D achieves this by deforming textures in real time based on parameters the rigger sets in Inochi Creator.
+Inochi2D is an open source specification for a 2D character animation system that allows characters to be animated in real-time for games and VTubing.
+Inochi2D achieves this by deforming textures in real time based on parameters the rigger sets in Inochi Creator.
 
 This documentation page covers:
   - Inochi Creator
@@ -16,9 +17,9 @@ This documentation page covers:
   - Inochi2D Specification for implementers
   - Inochi2D SDK for developers
 
-**Inochi Creator** is the official tooling to create animated rigs for use with Inochi2D compliant software and games.
+**Inochi Creator** is the official tool to create animated rigs for use with Inochi2D compliant software and games.
 
-**Inochi Session** is the official tooling to use Inochi2D models for VTubing, using various forms of body and face tracking.
+**Inochi Session** is the official tool to use Inochi2D models for VTubing, using various forms of body and face tracking.
 
 **Inochi2D Specification** is meant for developers that want to implement Inochi2D in their preferred engine.
 
@@ -53,6 +54,21 @@ Ada is Inochi2D's mascot, an airheaded, friendly and helpful foxgirl. She will a
 
       Oh, and don't forget: If you have questions not covered here you can always reach out to us on `our Discord <https://discord.gg/invite/abnxwN6r9v>`__!
 
+.. toctree::
+   :maxdepth: 4
+   :caption: FAQ
+   :name: sec-faq
+   :hidden:
+
+   inochi2d/faq
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Inochi2D Specification
+   :name: sec-inochi2d-spec
+   :hidden:
+
+   inochi2d/spec/index
 
 .. toctree::
    :maxdepth: 2
@@ -61,7 +77,7 @@ Ada is Inochi2D's mascot, an airheaded, friendly and helpful foxgirl. She will a
    :hidden:
 
    creator/index
-   
+
 .. toctree::
    :maxdepth: 2
    :caption: Inochi Session
@@ -69,14 +85,6 @@ Ada is Inochi2D's mascot, an airheaded, friendly and helpful foxgirl. She will a
    :hidden:
 
    session/index
-   
-.. toctree::
-   :maxdepth: 2
-   :caption: Inochi2D SDK
-   :name: sec-i2d
-   :hidden:
-
-   inochi2d/index
 
 
 
@@ -86,3 +94,4 @@ Ada is Inochi2D's mascot, an airheaded, friendly and helpful foxgirl. She will a
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`
+
