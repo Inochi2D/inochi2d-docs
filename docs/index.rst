@@ -76,7 +76,7 @@ Ada is Inochi2D's mascot, an airheaded, friendly and helpful foxgirl. She will a
    :name: sec-i2d
    :hidden:
 
-   i2d/index
+   inochi2d/index
 
 
 
