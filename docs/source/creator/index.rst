@@ -19,3 +19,4 @@ To get started check out our `Getting Started Guide <./getting-started.html>`_
    :name: topic-creator
 
    getting-started
+   using-inochi-creator
