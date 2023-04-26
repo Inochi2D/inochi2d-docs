@@ -22,6 +22,17 @@ Some settings may be discarded due to incompatibility with the output file forma
 
 -----------
 
+Starting an Export
+------------------
+
+To start an export, go to ``File->Export->Video`` from the main menu.
+
+You will then be presented with a dialog asking you where you wish to save the video file.
+
+If the option is grayed out, see :doc:`Installing FFMPEG <ffmpeg>`.
+
+-----------
+
 Camera
 ------
 
