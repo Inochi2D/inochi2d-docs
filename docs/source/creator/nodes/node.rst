@@ -3,6 +3,8 @@ Node
 ==========
 
 .. image:: img/node-content.png
+  :align: right
+  :width: 30%
 
 The Node is the base Node type which all other Nodes inherit from, it only stores a Transform.
 
