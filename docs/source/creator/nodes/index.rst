@@ -53,3 +53,4 @@ The scene graph is accessed via the Nodes panel, which displays them in a tree v
    :name: topic-nodes
 
    node.rst
+   puppet.rst
