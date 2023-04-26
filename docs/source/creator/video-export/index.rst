@@ -21,7 +21,10 @@ The following topic explains how to set up Inochi Creator for video export and h
 
       ffmpeg --version
     
-    If FFMPEG is not installed continue to the Installing FFMPEG section.
+
+If FFMPEG is not installed continue to the :doc:`Installing FFMPEG <ffmpeg>` section.
+
+Otherwise continue to the :doc:`The Export Video Dialog <exporting>` section.
 
 
 .. toctree::
