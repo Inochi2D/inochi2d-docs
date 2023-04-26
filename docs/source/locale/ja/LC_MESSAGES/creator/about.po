@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 23:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../source/creator/about.rst:3 122b258fb30646dfae53ed0b8922ef2d
+msgid "About Inochi Creator"
+msgstr ""
+
+#: ../../source/creator/about.rst:7 8f348ceca7ee462c80dd373a91787216
+msgid ""
+"Inochi Creator is an open source editor for the `Inochi2D puppet format "
+"<https://github.com/Inochi2D/inochi2d>`_. This application allows you to "
+"rig models for use in games or for other real-time applications such as "
+"`VTubing <https://en.wikipedia.org/wiki/VTuber>`_. Animation is achieved "
+"by morphing, transforming and in other ways distorting layered 2D "
+"textures in real-time. These distortions can trick the end user in to "
+"perciving 3D depth in the 2D art."
+msgstr ""
+
+#: ../../source/creator/about.rst:12 2a66973f87f54154a548d57b835dd064
+msgid ""
+"If you are a VTuber wanting to use Inochi2D we highly recommend checking "
+"out `Inochi Session <https://github.com/Inochi2D/inochi-session>`_ as "
+"well."
+msgstr ""
+
+#: ../../source/creator/about.rst:14 56ede8096bb643afacd67de0870acbd1
+msgid ""
+"To get started check out our `Getting Started Guide <./getting-"
+"started.html>`_"
+msgstr ""
+

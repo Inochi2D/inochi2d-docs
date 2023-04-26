@@ -58,3 +58,8 @@ html_theme_options = {
     # Collapse navigation (False makes it tree-like)
     "collapse_navigation": False,
 }
+
+# Translation options
+locale_dirs = ["locale/"]
+gettext_compact = False
+language = "ja"
