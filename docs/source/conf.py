@@ -7,7 +7,6 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 from gettext import gettext
-import os
 import sphinx_rtd_theme
 
 
