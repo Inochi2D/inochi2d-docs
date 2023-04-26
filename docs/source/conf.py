@@ -63,9 +63,3 @@ html_theme_options = {
 # Translation options
 locale_dirs = ["locale/"]
 gettext_compact = False
-language = os.environ.get("SPHINX_LANGUAGE") or "en"
-print(f"LANGUAGE={language}")
-if language == "en":
-    html_file_suffix=".html"
-else:
-    html_file_suffix=f".{language}.html"
