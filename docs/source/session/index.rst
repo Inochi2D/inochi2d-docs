@@ -1,7 +1,8 @@
+==============
 Inochi Session
 ==============
 
-TODO: Documentation for Inochi Session.
+Due to a planned massive restructuring of Inochi Session, documentation for it will be sparse at the moment, sorry!
 
 .. toctree::
    :hidden:

@@ -82,7 +82,7 @@ msgid ""
 "**Inochi Creator** is the official tooling to create animated rigs for "
 "use with Inochi2D compliant software and games."
 msgstr ""
-"**Inochi Creator**はInochi2D互換のソフトやゲームで利用することのできる、"
+"**Inochi Creator**\はInochi2D互換のソフトやゲームで利用することのできる、"
 "モデルファイルを造る公式のツールです。"
 
 #: ../../source/index.rst:21 3dabf6968f12447abc006bc713cabe34
@@ -90,7 +90,7 @@ msgid ""
 "**Inochi Session** is the official tooling to use Inochi2D models for "
 "VTubing, using various forms of body and face tracking."
 msgstr ""
-"**Inochi Session**はトラッキング技術を使ってInochi2Dのモデルを動かす、"
+"**Inochi Session**\はトラッキング技術を使ってInochi2Dのモデルを動かす、"
 "VTuber向けの公式ツールです。"
 
 #: ../../source/index.rst:23 23394cf5883146079e34f289f8b0ee9a
@@ -98,7 +98,7 @@ msgid ""
 "**Inochi2D Specification** is meant for developers that want to "
 "implement Inochi2D in their preferred engine."
 msgstr ""
-"**Inochi2D Specification**はInochi2Dを独自のエンジンに組み込みたい開発者"
+"**Inochi2D Specification**\はInochi2Dを独自のエンジンに組み込みたい開発者"
 "向けのドキュメントです。"
 
 #: ../../source/index.rst:25 62b9383b4cf74736b2d3a6ba3d1b666f
@@ -106,7 +106,7 @@ msgid ""
 "**Inochi2D SDK** is the official Software Development Kit that allows "
 "integrating Inochi2D in to your games and software."
 msgstr ""
-"**Inochi2D SDK**はInochi2Dをゲームやソフトに組み込んで使いたい開発者向け"
+"**Inochi2D SDK**\はInochi2Dをゲームやソフトに組み込んで使いたい開発者向け"
 "の公式のSDKです。"
 
 #: ../../source/index.rst:30 2b9665e7828f4a738c14449b9fbb4b96
@@ -142,5 +142,5 @@ msgid ""
 "abnxwN6r9v>`__!"
 msgstr ""
 "あっ、忘れるとこだった！　ドキュメントに書いてなくてわからないことがあっ"
-"たら、`Discordのサーバ <https://discord.gg/invite/abnxwN6r9v>`に相談して"
+"たら、`Discordのサーバ <https://discord.gg/invite/abnxwN6r9v>`__\に相談して"
 "みてね！（日本語のチャンネルもあるよ）"
