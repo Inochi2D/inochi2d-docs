@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 23:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../source/creator/first-model/tutorial02.rst:3
+#: d724ffab2e1e429c9ffc050329011385
+msgid "2. Layouting"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:5
+#: 786e7302f68c4a908da18565881cc655
+msgid ""
+"Now that we have Aka's head loaded in to our project and we can save and "
+"load it, the next step is to lay out the model for rigging, this step is "
+"called Layouting."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:6
+#: fa1c26b31bb041708abca503740ff88a
+msgid "You can think of layouting as building out the skeleton for our model."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:8
+#: 89790eebdba24c41abd0e81e63484d8e
+msgid "For this chapter we'll be following the diagram below"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:12
+#: d8215f63e1ff4baca392463f1b3ba472
+msgid ""
+"We'll be using the basic :doc:`Node </creator/nodes/node>` to build out "
+"this skeleton, which will make some rigging easier later."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:15
+#: 05a4f3af98ff47968ede2e6fa9e26980
+msgid "Creating our skeleton"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:18
+#: 3685d4e3388044fba2ce6d8e077e1c9d
+msgid "1. Adding a Node"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:25
+#: 3830370097ca4bb5ac5a0ca5bcfd3b49
+msgid ""
+"To add new nodes to the tree right click an existing node and select the "
+"type of Node you want within the ``Add`` submenu, in this case we want "
+"the ``Node`` node type."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: 1282c71809264af7868d31a3a6da5983
+msgid ""
+"The ``Add`` submenu will add the Node as a child to the node you right "
+"clicked!"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: 2912d305c36e4ac29289bc86071a2bb2
+msgid ""
+"See the :doc:`Nodes </creator/nodes/index>` page for more information "
+"about how parenting works!"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:43
+#: 2849ccbcac904921b1ea95766e5f041a
+msgid "2. Renaming a Node"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:50
+#: c48948d5578a4bc3932e4be8df6bec3d
+msgid ""
+"After adding our new Node, we'll see it appear as \"Unnamed Node\" within"
+" the node tree. We should probably rename it so that it's easier to to "
+"know what it does at a glance."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:52
+#: 3513903be390451691c3232594c9c233
+msgid ""
+"Click the node and within the Inspector panel, rename the node to \"Neck "
+"Root\""
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:58
+#: a11107073aa943778c2df740002a975b
+msgid "3. Transforming a Node"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: c8ca951ccce843eab8507a0388756bd7
+msgid ""
+"If you look in the viewport with our ``Neck Root`` selected you will see "
+"the following gizmo pop up."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: 5024ef094bbb4b7a9557b4b674c2e802
+msgid ""
+"This gizmo tells you where the node is in the scene, the colors represent"
+" where the X, Y and Z axis of the node are pointing"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: eb912105c8e54f8ca35322918b248f3b
+msgid ""
+"X is red, Y is green, Z is blue. Z is currently obscured by the fact that"
+" it's pointing away from the camera."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:79
+#: a6f14f87fb4448d3b945b55f5932377d
+msgid ""
+"Either by dragging the move gizmo (the button that looks like arrows "
+"pointing in 4 directions) or by editing the Translation section in the "
+"Inspector, move Neck Root to the bottom of the neck."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:88
+#: 50478c0e83ae4b1197ee2c0be8bab9b3
+msgid "4. Finishing the basic Layout"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: e70f3fa1b34a44b7b8f56d6618c23db8
+msgid ""
+"With these 3 basic functions you should be able to create a skeleton, "
+"remember that ``Add`` adds nodes as children of another node and that the"
+" position of every node is *relative* to their parent node!"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: 22971be662ec4e2d86ac5a27e3da1ff8
+msgid "Try to re-create this layout using the techniques above."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:101
+#: 49c75bf248f2423aa91e227b5d0c349f
+msgid "A challenge"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: a05439f6349d46a1a13d040d4dd73ab4
+msgid ""
+"Now that you know the basics of creating a layout, try creating "
+"additional layout points for the nose and back hair!"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst:118
+#: ea0e09861ee1458f8102f0d08666ce7d
+msgid "Moving things around"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: a08371bdc51341d7a3fa5e466daf93a1
+msgid ""
+"Now that we have our skeleton, it's mostly just about moving things in to"
+" the right place, drag and drop all the Part Nodes (the ones with the "
+"color palette icon) in to their place!"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: 3fcd9f0f93f84ab1922d090629528d07
+msgid "Try to roughly follow this layout!"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: b56ad24da26f49ed8d5ceba0a6474595
+msgid ""
+"You can now try to select Neck Root and rotate the node around the Z axis"
+" (3rd box or rotate Gizmo), notice that all the children of the Neck Root"
+" rotate with it!"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: 9b593df8df024e1f87b0590968b35eee
+msgid "Congratulations! You've finished layouting your model, for now at least."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial02.rst
+#: 6c97e2fd1f3641728927801095422e22
+msgid ""
+"You can download the resulting model file :download:`here <tutorial-"
+"aka02.inx>`, if you need a reference!"
+msgstr ""
+

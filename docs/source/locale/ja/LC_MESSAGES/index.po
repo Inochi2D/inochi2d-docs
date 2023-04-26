@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 23:38+0900\n"
+"PO-Revision-Date: 2023-04-27 00:44+0900\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
+
+#: ../../source/index.rst:14 ../../source/index.rst:57
+#: 375b2db0c0ee459ab58fbc38c13c2733
+msgid "Inochi Creator"
+msgstr "Inochi Creator"
+
+#: ../../source/index.rst:15 ../../source/index.rst:69
+#: ff22acdf1aa34106825a2284219dafce
+msgid "Inochi Session"
+msgstr "Inochi Session"
+
+#: ../../source/index.rst:77
+msgid "Inochi2D SDK"
+msgstr "Inochi2D SDK"
+
+#: ../../source/index.rst:3 6dd83ac89bb5453d8ddb5812184fa470
+msgid "Welcome to the Inochi2D Documentation"
+msgstr "ようこそ! Inochi2Dのドキュメントへ!"
+
+#: ../../source/index.rst:5 67c9d9a3da064ba8ad46a65f7d7d5d92
+msgid ""
+"On this page, you will find documentation for the officially supported "
+"projects under the Inochi2D banner. Use the sidebar on the left to "
+"select a project to get documentation from, and a topic you want to read "
+"about."
+msgstr ""
+"このページは、Inochi2Dプロジェクトが公式にサポートしているプロジェクトの"
+"ドキュメントへのリンクの一覧です。左側のサイドバーから、目的のプロジェク"
+"トとトピックを選んでください。"
+
+#: ../../source/index.rst:9 f5824295bb6c4000b79c50e808cc8ad6
+msgid "What is Inochi2D?"
+msgstr "Inochi2Dとは？"
+
+#: ../../source/index.rst:11 a97266dfbe98477db563a1c5ad298858
+msgid ""
+"Inochi2D is an open source specification for a 2D character animation "
+"system that allows characters to be animated in real-time for games and "
+"VTubing. Inochi2D achieves this by deforming textures in real time based "
+"on parameters the rigger sets in Inochi Creator."
+msgstr ""
+"Inochi2Dは２Dキャラクタのアニメーションを実現するオープンソースのシステム"
+"です。Inochi2Dではキャラクタをリアルタイムに動かすことができ、ゲームや"
+"VTuberなどで使うことが出来ます。Inochi2DはInochi Creatorをつかってモデリ"
+"ングされたパラメータを使ってリアルタイムにテクスチャを変形することでアニ"
+"メーションを実現しています。"
+
+#: ../../source/index.rst:17 c754e01ca5d34dc79f5dd72207cc181a
+msgid "This documentation page covers:"
+msgstr "このドキュメントに含む内容："
+
+#: ../../source/index.rst:16 60f50c6bd6f6434a8549c8cd7bc1be56
+msgid "Inochi2D Specification for implementers"
+msgstr "開発者に向けたInochi2Dの仕様"
+
+#: ../../source/index.rst:17 92b1045c67e6405cbeb5bae64be0bd06
+msgid "Inochi2D SDK for developers"
+msgstr "開発者向けのInochi2D SDK"
+
+#: ../../source/index.rst:19 eb358d2e5a1f4db8b0cc11a30ddb74c3
+msgid ""
+"**Inochi Creator** is the official tooling to create animated rigs for "
+"use with Inochi2D compliant software and games."
+msgstr ""
+"**Inochi Creator**はInochi2D互換のソフトやゲームで利用することのできる、"
+"モデルファイルを造る公式のツールです。"
+
+#: ../../source/index.rst:21 3dabf6968f12447abc006bc713cabe34
+msgid ""
+"**Inochi Session** is the official tooling to use Inochi2D models for "
+"VTubing, using various forms of body and face tracking."
+msgstr ""
+"**Inochi Session**はトラッキング技術を使ってInochi2Dのモデルを動かす、"
+"VTuber向けの公式ツールです。"
+
+#: ../../source/index.rst:23 23394cf5883146079e34f289f8b0ee9a
+msgid ""
+"**Inochi2D Specification** is meant for developers that want to "
+"implement Inochi2D in their preferred engine."
+msgstr ""
+"**Inochi2D Specification**はInochi2Dを独自のエンジンに組み込みたい開発者"
+"向けのドキュメントです。"
+
+#: ../../source/index.rst:25 62b9383b4cf74736b2d3a6ba3d1b666f
+msgid ""
+"**Inochi2D SDK** is the official Software Development Kit that allows "
+"integrating Inochi2D in to your games and software."
+msgstr ""
+"**Inochi2D SDK**はInochi2Dをゲームやソフトに組み込んで使いたい開発者向け"
+"の公式のSDKです。"
+
+#: ../../source/index.rst:30 2b9665e7828f4a738c14449b9fbb4b96
+msgid "Meet Ada"
+msgstr "エイダからごあいさつ"
+
+#: ../../source/index.rst:40 7ffa5bc0e4d343f59ab4f80b27811ddb
+msgid ""
+"Ada is Inochi2D's mascot, an airheaded, friendly and helpful foxgirl. "
+"She will appear throughout the documentation with tips, warnings and "
+"other tidbits of information that may be useful."
+msgstr ""
+"エイダはInochi2Dの天然ドジっ娘なマスコットです。人懐っこくて親切なキツネ"
+"娘です。このドキュメントでは、エイダがヒントや警告、その他の役に立つかも"
+"しれない情報を教えてくれるでしょう。"
+
+#: ../../source/index.rst:42 7c57619d383141258884a7dbf2dc99a1
+msgid "Hello, there!"
+msgstr "こんにちは！"
+
+#: ../../source/index.rst:52 ce13c8dbd87147a68b0ab44d3103211d
+msgid ""
+"Nice to meet ya! I'm Ada, local vertex engineer fox! Please don't mind "
+"me shedding a bit of fur on your experience 🦊"
+msgstr ""
+"はじめまして！私はエイダ、あなたの近所に済んでる三角形に詳しいエンジニア"
+"だよ。ちょっとした「なるほど！」な情報をお届けできるといいな！ 🦊"
+
+#: ../../source/index.rst:54 e7a08098e7cd4332b9e1e37004504027
+msgid ""
+"Oh, and don't forget: If you have questions not covered here you can "
+"always reach out to us on `our Discord <https://discord.gg/invite/"
+"abnxwN6r9v>`__!"
+msgstr ""
+"あっ、忘れるとこだった！　ドキュメントに書いてなくてわからないことがあっ"
+"たら、`Discordのサーバ <https://discord.gg/invite/abnxwN6r9v>`に相談して"
+"みてね！（日本語のチャンネルもあるよ）"
