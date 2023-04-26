@@ -221,6 +221,11 @@ legend,
     font-weight: 500;
 }
 
+/* Create an inline block */
+.inline {
+    display: inline-block;
+}
+
 /* Ada specific tweak */
 .rst-content .ada {
     float: left;

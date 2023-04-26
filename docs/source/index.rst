@@ -62,6 +62,7 @@ Ada is Inochi2D's mascot, an airheaded, friendly and helpful foxgirl. She will a
 
    creator/about
    creator/getting-started
+   creator/first-model/index
    creator/nodes/index
    creator/video-export/index
    
