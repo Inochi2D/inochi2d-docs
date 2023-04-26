@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 23:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/creator/first-model/tutorial01.rst:3
+#: ceed2ede5cab40c49ce9cb217f9d57bf
+msgid "1. Setting Up"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:7
+#: 53fc879ce2d7411589b19574b1a69524
+msgid "Getting the Tutorial Aka Model"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:9
+#: 5a672a59eacb44c1a940d52e1d0e13c7
+msgid "Download the tutorial Aka model from :download:`here <tutorial-aka.psd>`."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:11
+#: 0446a6fa4c39445f8b9741d329ed902f
+msgid "This is a version of the Aka example model by Seagetch, but with only the head, which is what we'll focus on."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:16
+#: f55446ecd37c4f02a1494d5a13caf1d8
+msgid "Importing the model in to Creator"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:20
+#: a9a595e34e5149dd8d41a35695a0ad9e
+msgid "To import Aka, either click ``Import PSD`` within the startup window, or select ``File->Import->Photoshop Document`` from the main menu."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:22
+#: 8dee9510e5f74670b322cdcecb260e07
+msgid "Once selected Inochi Creator should look like this:"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:26
+#: 7534b6e10bfe412c8c67de343d002c14
+msgid "Something's off..."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:36
+#: 44708ae98d7943c2ae2ecabfcc9cf8a0
+msgid "You may wonder why the shadows are looking all garbled on her right now, right?"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:38
+#: 8c95d965050a4fb9b1848b35f57d3f74
+msgid "All the shadow layers in the PSD are just bundled on to each other, so shadows cast shadows on shadows. We'll fix that in the coming chapters!"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:44
+#: 5f0f1547cc4240239333a3c9f187ea9c
+msgid "Saving and Loading a Model"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:46
+#: 77e03fdce0a046d89b0d443d3421fe80
+msgid "Now that we have the model loaded in to Inochi Creator, let's save it!"
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:48
+#: e8dbe290cb024804a3d7b1338a4c7475
+msgid "Go to the ``File->Save`` option in the main menu and select where to save it."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:49
+#: 0ed7a89bae504fc2a646b53b4a81d312
+msgid "For now, let's save it as ``FirstModel`` in a location of your choosing."
+msgstr ""
+
+#: ../../source/creator/first-model/tutorial01.rst:51
+#: 93b7a7e6cce448efbb2de95ec1d74efe
+msgid "If you now close and re-open Inochi Creator your project should be visible in the Recent Projects list!"
+msgstr ""

@@ -2,4 +2,6 @@
 .vscode
 .DS_Store
 
-docs/build
+!docs/build
+docs/build/*
+!docs/build/gettext

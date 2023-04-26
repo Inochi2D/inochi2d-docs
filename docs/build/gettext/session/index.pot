@@ -1,0 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 23:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/session/index.rst:2
+#: ../../source/session/index.rst:6
+#: 
+#: 46257ff90e954d83ac0c8c4f84769987
+msgid "Inochi Session"
+msgstr ""
+
+#: ../../source/session/index.rst:4
+#: 482c71d15ff5490997b448cc3f7d61c6
+msgid "TODO: Documentation for Inochi Session."
+msgstr ""

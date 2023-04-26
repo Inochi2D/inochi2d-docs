@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 23:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/creator/video-export/exporting.rst:3
+#: a337db8d4c434e35ad3c8caade58fb30
+msgid "The Export Video Dialog"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:7
+#: a0eddd3a2db1424ca53907eedb2bbd9d
+msgid "The video export dialog allows you to specify settings for the exported video."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:9
+#: 40d93c349ce843828a8f79b0b2705f14
+msgid "Some settings may be discarded due to incompatibility with the output file format, such as discarding transparency for opaque video formats."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:19
+#: f01745aa54a04a0f8344849378dc5ba9
+msgid "You will need at least 1 animation and 1 camera in your scene to export video!"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:21
+#: c366842b87c74257ae86a0587a4b62f5
+msgid "Otherwise you just get a sad error box telling you to go do that."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:26
+#: 70953956122d4cbb8ee6a68b7dfdccbb
+msgid "Starting an Export"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:28
+#: 4f93948ce6fc47b0bdc49b2a41d1b83f
+msgid "To start an export, go to ``File->Export->Video`` from the main menu."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:30
+#: d1db00fe99834d28bafede34d76f8161
+msgid "You will then be presented with a dialog asking you where you wish to save the video file."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:32
+#: 4d000298941a4a2ca483e6f88024882d
+msgid "If the option is grayed out, see :doc:`Installing FFMPEG <ffmpeg>`."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:37
+#: 73f63efcba3e4d88b8efd4ade9ef97a4
+msgid "Camera"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:39
+#: 663c498a0a044319b9c0b66a70b8e06b
+msgid "The following section allows you to adjust some settings about the camera for export."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:42
+#: 5752df18bb634fd5adc2304888ff91a5
+msgid "Camera dropdown"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:44
+#: 0da766e813b5437182b175b98953484d
+msgid "The camera dropdown lets you select which camera to use, if the camera is affected by the Animation, then you can export video with zooms, pans, etc."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:47
+#: d6fa90ee412e4ed3b248b577492e3e64
+msgid "Allow Transparency"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:49
+#: 452ac4cee8c4400c90e1fd33eee47caa
+msgid "Whether Inochi Creator should try to export the background with transparency, only some formats and codecs support this, though!"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:52
+#: 0e8821601bc7475d906adb31f08d963d
+msgid "Use Post Processing"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:54
+#: d06af8eb12fe45ae867f5c7867900522
+msgid "Whether Inochi Creator should use the scene lighting in the exported video, this allows your model to have glowing elements, etc."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:59
+#: a4411f70e441407299376ebe477f5c4d
+msgid "Output"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:62
+#: ce25cb58e4184fa5a8fefde4b891319a
+msgid "Animation dropdown"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:64
+#: 7a2344674868457d9b641388228916d3
+msgid "Lets you select which animation to export to file."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:67
+#: 9a1307ea35b54c43883d751710ee03a3
+msgid "Loops"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:69
+#: f64ae8e1ec77455e969d7be8f6478b9e
+msgid "How many times the main section of the animation should be looped, setting this value to 0 is semantically the same as setting it to 1."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:72
+#: ba1bce9904e447bd9e6c587835d7aeda
+msgid "Framerate"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:74
+#: b362a43f327c47448bd20e2ae01da543
+msgid "The framerate of the video file to export"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:77
+#: 3dbf60da4e344cc2acf4ebfcda679818
+msgid "Lock to Animation Framerate"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:79
+#: 409b7c3ca0754ddcbb3115a480800227
+msgid "Disables smoothing of mismatched framerates between video export and animation framerate."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:82
+#: 4a10dbdde4fc48378944168dd18bb9a0
+msgid "Codec"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:84
+#: a09ab852a233486b8a929a1df2966fb2
+msgid "Which video codec to use for export, by default Inochi Creator will try to automatically infer the codec."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:86
+#: e5f1ed550ef54e17aa05896128cedc10
+msgid "Eg. for H.264 video you'll want to export an mp4 file, with the H.264 codec selected in the list."
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:97
+#: 2f3351d639f54dd493f2a916d2b4f72e
+msgid "The assumptions Inochi Creator makes with the Automatic option may be wrong!"
+msgstr ""
+
+#: ../../source/creator/video-export/exporting.rst:99
+#: 31caede6f3384610bf8f8c637444b94c
+msgid "If you want to be 100% sure that Inochi Creator uses the right codec, please set it from the list!"
+msgstr ""
