@@ -127,7 +127,7 @@ Moving things around
         | Now that we have our skeleton, it's mostly just about moving things in to the right place, drag and drop all the Part Nodes (the ones with the color palette icon) in to their place!
         | Try to roughly follow this layout!
         |
-        | You can now try to select Neck Root and rotate the node around the Z axis (3rd box or rotate Gizmo), notice that all the children of the Neck Root rotate with it!
+        | You can now try to select Neck Root and rotate the node around the Z axis (3rd box in the Rotation section or using the rotate Gizmo), notice that all the children of the Neck Root rotate with it!
         |
         | Congratulations! You've finished layouting your model, for now at least.
 
