@@ -7,6 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 from gettext import gettext
+import os
 import sphinx_rtd_theme
 
 
@@ -62,4 +63,9 @@ html_theme_options = {
 # Translation options
 locale_dirs = ["locale/"]
 gettext_compact = False
-language = "ja"
+language = os.environ.get("SPHINX_LANGUAGE") or "en"
+print(f"LANGUAGE={language}")
+if language == "en":
+    html_file_suffix=".html"
+else:
+    html_file_suffix=f".{language}.html"
