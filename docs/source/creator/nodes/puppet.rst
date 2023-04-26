@@ -3,8 +3,12 @@ Puppet
 ==========
 
 .. image:: img/puppet-content.png
+  :align: right
+  :width: 25%
 
 The puppet node is a special node that you can not move. It contains properties for model information, model-wide settings such as physics system options and rendering options.
+
+---------
 
 General Info & Licensing
 ------------------------
@@ -14,6 +18,8 @@ These sections stores general information that most software reading the model w
 As for licensing, note that unlike competing software, we do not claim any form of license or ownership over the models produced with our software.
 
 As such you are free to specify any license you want and have to enforce said license yourself.
+
+---------
 
 Physics Globals
 ---------------
@@ -29,6 +35,8 @@ Gravity
 ~~~~~~~~~~~~~~~~
 
 How strong the gravity is for the model, by default it uses Earth gravity of 9.8 m/s squared.
+
+---------
 
 Rendering Settings
 ------------------
