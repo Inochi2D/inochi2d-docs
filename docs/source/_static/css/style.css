@@ -223,8 +223,16 @@ legend,
 
 /* Ada specific tweak */
 .rst-content .ada {
-    margin: 0px;
     float: left;
+    margin-right: 8px;
+    margin-bottom: 0px;
+}
+
+/* Ada specific tweak */
+.rst-content .ada-right {
+    float: right;
+    margin-left: 8px;
+    margin-bottom: 0px;
 }
 
 /* See <https://github.com/godotengine/godot-docs/pull/5876> for context. */

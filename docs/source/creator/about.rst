@@ -1,5 +1,6 @@
-Inochi Creator
-==============
+====================
+About Inochi Creator
+====================
 
 .. image:: https://user-images.githubusercontent.com/7032834/194462402-74c4a3e0-50ca-4b50-8e8d-164d97371f5a.png
 
@@ -11,11 +12,3 @@ These distortions can trick the end user in to perciving 3D depth in the 2D art.
 If you are a VTuber wanting to use Inochi2D we highly recommend checking out `Inochi Session <https://github.com/Inochi2D/inochi-session>`_ as well.
 
 To get started check out our `Getting Started Guide <./getting-started.html>`_
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Inochi Creator
-   :name: topic-creator
-
-   getting-started

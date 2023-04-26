@@ -1,3 +1,4 @@
+===============
 Getting Started
 ===============
 
@@ -83,6 +84,8 @@ Inochi Creator supports multiple languages, so if English is not your first lang
 by clicking the dropdown in the "Language" section
 
 After having set up the basic settings you are then free to start creating Inochi2D models!
+
+You can download example models on the same page you downloaded the version of Inochi Creator you installed.
 
 -----------
 
