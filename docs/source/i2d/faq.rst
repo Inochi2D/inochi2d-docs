@@ -38,7 +38,7 @@ Inochi2D has multiple advantages, some still in development:
 Does Inochi2D support pre-defined animations?
 ---------------------------------------------
 
-Pre-defined animations are being worked on for Inochi Creator 0.8. We do not currently have a timeline for when it will be released.
+From version 0.8 of Inochi2D you can create animations and save them to your model.
 
 Does Inochi2D do face tracking?
 -------------------------------
