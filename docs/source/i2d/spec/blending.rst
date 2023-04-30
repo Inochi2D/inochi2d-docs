@@ -75,6 +75,12 @@ Rendering equations
       - 1-SrcAlpha
       - 
       - 
+    * - Destination In
+      - Add
+      - 0
+      - SrcAlpha
+      - 
+      - 
     * - Clip to Lower
       - Add
       - DstAlpha
