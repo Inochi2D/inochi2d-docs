@@ -119,6 +119,12 @@ Blend Accuracy Extension
 * Difference
 * Exclusion
 
+**Implementation Notes**
+
+* This extension can be implemented in OpenGL via the `GL_KHR_blend_equation_advanced, GL_KHR_blend_equation_advanced_coherent <https://registry.khronos.org/OpenGL/extensions/KHR/KHR_blend_equation_advanced.txt>`__, `GL_NV_blend_equation_advanced and GL_NV_blend_equation_advanced_coherent <https://registry.khronos.org/OpenGL/extensions/NV/NV_blend_equation_advanced.txt>`__ extensions.
+* This extension can be implemented in Vulkan via the `VK_EXT_blend_operation_advanced <https://registry.khronos.org/vulkan/specs/1.3-extensions/man/html/VK_EXT_blend_operation_advanced.html>`__ extension.
+* This extension can be implemented on tiler GPUs, such as PowerVR and Apple Silicon chips, via framebuffer fetch.
+
 | This extension was introduced in Inochi2D 0.8 Standard.
 
 | 
@@ -141,9 +147,6 @@ Extended Blend Modes
 
 **Implementation Notes**
 
-* This extension can be implemented in OpenGL via the `GL_KHR_blend_equation_advanced, GL_KHR_blend_equation_advanced_coherent <https://registry.khronos.org/OpenGL/extensions/KHR/KHR_blend_equation_advanced.txt>`__, `GL_NV_blend_equation_advanced and GL_NV_blend_equation_advanced_coherent <https://registry.khronos.org/OpenGL/extensions/NV/NV_blend_equation_advanced.txt>`__ extensions.
-* This extension can be implemented in Vulkan via the `VK_EXT_blend_operation_advanced <https://registry.khronos.org/vulkan/specs/1.3-extensions/man/html/VK_EXT_blend_operation_advanced.html>`__ extension.
-* This extension can be implemented on tiler GPUs, such as PowerVR and Apple Silicon chips, via framebuffer fetch.
 * This extension can be emulated by shaders using Texture Barriers.
 * This extension can be emulated by shaders using a ping-pong framebuffer setup, this is unoptimal.
 
