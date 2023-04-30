@@ -137,10 +137,10 @@ Extensions
       - Version
       - Profile
     * - I2D_BLEND_ACCURACY [#early_extension]_
-      - 8.0
+      - 0.8
       - Standard
     * - I2D_EXTENDED_BLEND_MODES [#early_extension]_
-      - 8.0
+      - 0.8
       - Standard
 
 .. [#early_extension] This extension was introduced before extensions were added to the spec.
