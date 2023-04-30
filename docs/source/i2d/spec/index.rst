@@ -9,4 +9,5 @@ The Inochi2D Specification, this chapter documents the file formats and renderin
    :caption: Specification
    :name: topic-spec
 
+   profiles
    inp
