@@ -5,6 +5,9 @@ Blending
 | Inochi2D allows for porter-duff blending modes to be applied to Part nodes and Composite nodes, these blending nodes affect how colors are mixed on compositing with the screen.
 | Additionally the special blending modes "Clip to Lower" and "Slice from Lower" are supported to provide a nicer looking but less flexible form of masking.
 
+| 
+| 
+
 ----------------------
 Rendering equations
 ----------------------
@@ -86,6 +89,9 @@ Rendering equations
       - 
 
 
+| 
+| 
+
 ------------------------
 Blend Accuracy Extension
 ------------------------
@@ -114,6 +120,9 @@ Blend Accuracy Extension
 * Exclusion
 
 | This extension was introduced in Inochi2D 0.8 Standard.
+
+| 
+| 
 
 --------------------
 Extended Blend Modes
