@@ -136,6 +136,9 @@ Extensions
     * - Name
       - Version
       - Profile
+    * - I2D_BLEND_ACCURACY [#early_extension]_
+      - 8.0
+      - Standard
     * - I2D_EXTENDED_BLEND_MODES [#early_extension]_
       - 8.0
       - Standard

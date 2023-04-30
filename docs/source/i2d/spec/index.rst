@@ -10,4 +10,5 @@ The Inochi2D Specification, this chapter documents the file formats and renderin
    :name: topic-spec
 
    profiles
+   blending
    inp
