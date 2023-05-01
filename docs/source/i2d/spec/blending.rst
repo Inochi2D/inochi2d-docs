@@ -53,10 +53,16 @@ Rendering equations
       - 
     * - Linear Dodge
       - Add
-      - 1-DstColor
       - 1
-      - 
-      - 
+      - 1-SrcColor
+      - 1
+      - 1-SrcAlpha
+    * - Add (Glow)
+      - Add
+      - 1
+      - 1
+      - 1
+      - 1-SrcAlpha
     * - Subtract
       - ReverseSubtract
       - 1-DstColor
@@ -111,7 +117,6 @@ Blend Accuracy Extension
 * Screen
 * Lighten
 * Color Dodge
-* Linear Dodge
 * Subtract
 * Inverse
 
@@ -127,7 +132,7 @@ Blend Accuracy Extension
 
 **Implementation Notes**
 
-* This extension can be implemented in OpenGL via the `GL_KHR_blend_equation_advanced, GL_KHR_blend_equation_advanced_coherent <https://registry.khronos.org/OpenGL/extensions/KHR/KHR_blend_equation_advanced.txt>`__, `GL_NV_blend_equation_advanced and GL_NV_blend_equation_advanced_coherent <https://registry.khronos.org/OpenGL/extensions/NV/NV_blend_equation_advanced.txt>`__ extensions.
+* This extension can be implemented in OpenGL via the `GL_KHR_blend_equation_advanced and GL_KHR_blend_equation_advanced_coherent <https://registry.khronos.org/OpenGL/extensions/KHR/KHR_blend_equation_advanced.txt>`__ extensions.
 * This extension can be implemented in Vulkan via the `VK_EXT_blend_operation_advanced <https://registry.khronos.org/vulkan/specs/1.3-extensions/man/html/VK_EXT_blend_operation_advanced.html>`__ extension.
 * This extension can be implemented on tiler GPUs, such as PowerVR and Apple Silicon chips, via framebuffer fetch.
 
