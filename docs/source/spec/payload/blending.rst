@@ -108,7 +108,7 @@ Rendering equations
 Blend Accuracy Extension
 ------------------------
 
-| Inochi2D provides the ``I2D_BLEND_ACCURACY`` :doc:`extension </i2d/spec/profiles>`, this extension is entirely implementation side.
+| Inochi2D provides the ``I2D_BLEND_ACCURACY`` :doc:`extension </spec/inp/profiles>`, this extension is entirely implementation side.
 | If the Inochi2D implementation indicates support for this extension, it means that instead of emulating porter and duff blending modes, it will use GPU extensions to implement them properly.
 | This extension affects the rendering of the following blending modes.
 
@@ -130,6 +130,8 @@ Blend Accuracy Extension
 * Difference
 * Exclusion
 
+These blending modes use legacy blending if you have more than a Albedo output on some platforms.
+
 **Implementation Notes**
 
 * This extension can be implemented in OpenGL via the `GL_KHR_blend_equation_advanced and GL_KHR_blend_equation_advanced_coherent <https://registry.khronos.org/OpenGL/extensions/KHR/KHR_blend_equation_advanced.txt>`__ extensions.
@@ -145,7 +147,7 @@ Blend Accuracy Extension
 Extended Blend Modes
 --------------------
 
-| Inochi2D provides the ``I2D_EXTENDED_BLEND_MODES`` :doc:`extension </i2d/spec/profiles>`.
+| Inochi2D provides the ``I2D_EXTENDED_BLEND_MODES`` :doc:`extension </spec/inp/profiles>`.
 | This extension adds support for the following blending modes.
 
 * Overlay
@@ -155,6 +157,8 @@ Extended Blend Modes
 * Soft Light
 * Difference
 * Exclusion
+
+These blending modes are disabled if you have more than Albedo output.
 
 **Implementation Notes**
 

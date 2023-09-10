@@ -53,16 +53,7 @@ Ada is Inochi2D's mascot, an airheaded, friendly and helpful foxgirl. She will a
 
       Oh, and don't forget: If you have questions not covered here you can always reach out to us on `our Discord <https://discord.gg/invite/abnxwN6r9v>`__!
 
-   
-.. toctree::
-   :maxdepth: 2
-   :caption: Inochi2D
-   :name: sec-i2d
-   :hidden:
 
-   i2d/about
-   i2d/faq
-   i2d/spec/index
 
 .. toctree::
    :maxdepth: 2
@@ -83,6 +74,34 @@ Ada is Inochi2D's mascot, an airheaded, friendly and helpful foxgirl. She will a
    :hidden:
 
    session/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Inochi2D
+   :name: sec-inochi2d
+   :hidden:
+
+   inochi2d/about
+   inochi2d/api/index
+   inochi2d/faq
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Inox2D
+   :name: sec-inox2d
+   :hidden:
+
+   inox2d/about
+   inox2d/api/index
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Technical Specification
+   :name: sec-spec
+   :hidden:
+
+   spec/inp/index
+   spec/payload/index
 
 
 

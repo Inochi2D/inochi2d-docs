@@ -1,5 +1,5 @@
 ===========================
-INP Container Specification
+INP Specification
 ===========================
 
 INP Stands for **In**\ ochi2D **P**\ uppet, and is a binary container format to contain Inochi2D model, texture and extra data.
@@ -114,3 +114,11 @@ There's 3 currently officially supported formats in Inochi2D, which are the foll
       - `TGA - Truevision TGA <https://en.wikipedia.org/wiki/Truevision_TGA>`__ (Lossless)
     * - 2
       - `BC7 - BPTC Texture Compression <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ (Lossy)
+
+.. toctree::
+   :maxdepth: 2
+   :caption: INP Specification
+   :name: sec-spec-inp
+   :hidden:
+
+   profiles
