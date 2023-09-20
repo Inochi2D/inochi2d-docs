@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 23:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/creator/nodes/node.rst:3
+#: fba895f4cc5b4652a475abc5750a243e
+msgid "Node"
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:9
+#: cfad7f1b5901450d9c5ca6c699b0cc10
+msgid "The Node is the base Node type which all other Nodes inherit from, it only stores a Transform."
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:11
+#: 6a1dbf220984448e937d3238bfe41d08
+msgid "The transform stored by a Node will be inherited by its children. As such, children's position, rotation, scale and sorting index is relative to their parent."
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:13
+#: 6c273f49ba4441648fc3cad32e24d4e3
+msgid "A translation of ``0, 0, 0`` will result in the child node being in the center of its parent node."
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:23
+#: 1f584d4b110c4b7881df393438d3a580
+msgid "If you put a Node at ``0, 0, 0``, then add a child Node at ``0, 0, 32`` and rotate the parent around the Y axis, the child node will spin around its parent!"
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:25
+#: ac8f09bc5b3b4fe3846c52ce8a7e16ed
+msgid "How cool is that? 🦊"
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:28
+#: 7160af63903b4b1082245bc633781ab2
+msgid "Translation"
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:30
+#: 1d475901a5ff4137b3b0fa165363f15a
+msgid "Translation is a fancy mathematical word for \"position\", the translation defines where the Node is in 3D space."
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:34
+#: 9fa0e2f17cf544ccad785bf833bb59db
+msgid "Lock to Root Node"
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:36
+#: 184100f2381f43f38c1c5f5a125dc4ea
+msgid "This option allows the translation, scale and rotation to be independent of the parent. In this mode the node moves only based on the special root node of the model."
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:38
+#: 5a086ca6fc394c9395863152bcd2d2f5
+msgid "This is useful if you have some static element you want to only move when the model itself moves."
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:42
+#: a259fdbe1f134630bd7aaf4fb19a3e44
+msgid "Rotation"
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:44
+#: 8be77178f4264ecb9b086d10931039c7
+msgid "The rotation of the Node in degrees in 3D space."
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:47
+#: b454643d990b45ed9f12d548788dd0b1
+msgid "Scale"
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:49
+#: 3611f7caf50747c49f053ec88519bbc2
+msgid "The scale of the Node, as Nodes are generally 2D objects in 3D space you can only scale them on the X and Y axis."
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:52
+#: 4037f0999bf64e5a94f0d943d2c91374
+msgid "Snap to Pixel"
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:54
+#: d718c2cf4352454fbfc7b24fe75f9517
+msgid "Snaps the Node to the nearest pixel when moving."
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:57
+#: b143791a0a564868a5e6c27d8b4244b9
+msgid "Sorting"
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:59
+#: 009ea9ce28e04ce98e3867ac62774949
+msgid "The sorting index of the Node, smaller (and negative) numbers are closer to the camera, while bigger numbers are further away."
+msgstr ""
+
+#: ../../source/creator/nodes/node.rst:61
+#: 81b7375b480b430c86be5a55e318449a
+msgid "This value is used to define what Part is drawn in what order."
+msgstr ""

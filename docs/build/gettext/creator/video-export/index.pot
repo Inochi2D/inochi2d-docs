@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 23:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/creator/video-export/index.rst:3
+#: ../../source/creator/video-export/index.rst:30
+#: 
+#: b238968137344b388658dd6a1297c593
+msgid "Exporting Video"
+msgstr ""
+
+#: ../../source/creator/video-export/index.rst:5
+#: c4391ad6ab0b4b2eb3bdaff4e523a10d
+msgid "The following topic explains how to set up Inochi Creator for video export and how to export video with it."
+msgstr ""
+
+#: ../../source/creator/video-export/index.rst:15
+#: 86d0eee83f7e4f559726df1e723073a1
+msgid "FFMPEG is needed for video export! Without it the option will be grayed out."
+msgstr ""
+
+#: ../../source/creator/video-export/index.rst:17
+#: 2ac7ffff9e85499096129c9461b30116
+msgid "If you're not sure whether ffmpeg is installed on your system you can run the following in your command prompt/terminal!"
+msgstr ""
+
+#: ../../source/creator/video-export/index.rst:25
+#: 67d8824295434a519eb81b9cc0f86f2f
+msgid "If FFMPEG is not installed continue to the :doc:`Installing FFMPEG <ffmpeg>` section."
+msgstr ""
+
+#: ../../source/creator/video-export/index.rst:27
+#: ae90d0e601dc46088dd48474d5ca76c5
+msgid "Otherwise continue to the :doc:`The Export Video Dialog <exporting>` section."
+msgstr ""

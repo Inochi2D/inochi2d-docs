@@ -1,0 +1,349 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 23:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/i2d/spec/inp.rst:3
+#: 4d44a0bd7ccb478aa183f4e710fd6a55
+msgid "INP Container Specification"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:5
+#: a2d147d9f286442f89cdcc544fede75b
+msgid "INP Stands for **In**\\ ochi2D **P**\\ uppet, and is a binary container format to contain Inochi2D model, texture and extra data."
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:7
+#: 22efb146b5474884846b5e2b7f08d6de
+msgid "INP is subject to change as we get closer to the 1.0 release."
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:10
+#: ac4236575f524c6eae35f35876a34f72
+msgid "Format Layout"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:20
+#: 0b6b77a37dee403bb4d58557514cc2cd
+msgid "Inochi2D stores values in Big Endian format, please make sure you handle this correctly!"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:22
+#: 3faed13d9cef41c48590ec6e6f23229b
+msgid "You can find out more about endianness `here <https://en.wikipedia.org/wiki/Endianness>`__."
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:27
+#: ../../source/i2d/spec/inp.rst:66
+#: ../../source/i2d/spec/inp.rst:85
+#: 48d2cf256408481db3d9aa4232e011ae
+#: cbb1103c9986491b911b96b2283f015a
+#: 8915f064d9014397aaabcc99641c4be9
+msgid "Length (bytes)"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:28
+#: ../../source/i2d/spec/inp.rst:67
+#: ../../source/i2d/spec/inp.rst:86
+#: ed5390f49cb747ba9481803f18c5a9ef
+#: 81b784cfa2104f06ac340db4b5b50130
+#: 9764c76166c1447d89dc92596ec52768
+msgid "Contents"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:29
+#: ../../source/i2d/spec/inp.rst:68
+#: ../../source/i2d/spec/inp.rst:87
+#: 6baeb0e0e98e401a8df09e661d2a699c
+#: a4835a48f787424085ec2ae071bdfc9c
+#: 40feec312a4140dead6f4509aab47f38
+msgid "Notes"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:30
+#: ../../source/i2d/spec/inp.rst:39
+#: ../../source/i2d/spec/inp.rst:48
+#: cde4c9cb4a6c496d96e2d0f79e58ede4
+#: 6b53590ce0194eb3a88d8e6f426f2abe
+#: d3993dcd576748198b13835d6e3902a9
+msgid "8"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:31
+#: db8f8756f0ae46aea458579df9d96dfb
+msgid "``TRNSRTS\\0``"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:32
+#: c6316204f41b4261a45170ea3d878b77
+msgid "Magic bytes which tag the file as an INP file. (Trans Rights!)"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:33
+#: ../../source/i2d/spec/inp.rst:42
+#: ../../source/i2d/spec/inp.rst:51
+#: ../../source/i2d/spec/inp.rst:69
+#: ../../source/i2d/spec/inp.rst:88
+#: ../../source/i2d/spec/inp.rst:94
+#: 9d5daff221fb46b9b08cc1cc1238f406
+#: 485cfd20f8754dca9a1e25b819be727f
+#: a4c66f43bdc441c1ab9f3983c228998d
+#: 9bf67e1c8eab4f4eb23b85ff4baa3c5f
+#: ae0d0e8bb5954c12808a393dbd21bf33
+#: 34501f6ed4874ea9a0850abf4b34bce4
+msgid "4"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:34
+#: e48bfeda5c264674b29062c5b5f920dd
+msgid "JSON Payload Length"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:35
+#: 099cd75a53544eacbeb5d5879be07bee
+msgid "Length of JSON Payload"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:36
+#: ../../source/i2d/spec/inp.rst:75
+#: ../../source/i2d/spec/inp.rst:97
+#: c7a4d4e48f1a4bd994887645ad9e8b30
+#: c2ae54ac215043a5a3e9c862399de2f4
+#: c180ce70746a480b9d115fb41ad6d170
+msgid "*Payload Length*"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:37
+#: 8b5c0645a1794c028dce879516bf4508
+msgid "JSON Data"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:38
+#: 649a7cc31bd746f7a22e14744172b8d3
+msgid "The Inochi2D model and rigging data"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:40
+#: b8277bc816c746b1975ead5d7a4fdcad
+msgid "``TEX_SECT``"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:41
+#: 0af457948f444806844e98af3a7a30f9
+msgid "Texture Section Header"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:43
+#: 0202de9e5a49458f8c3c12dd2a3f07f6
+msgid "Texture Count"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:44
+#: 5dc9d4d40d574b70b327a815d800529e
+msgid "Amount of textures in the texture section"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:45
+#: dc5c86ea112e4807937cf552f9f815db
+msgid "*Till Texture Blob End*"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:46
+#: 8191545399d24a5da5a68991d7c4f293
+msgid "`Texture Blob <#texture-blob>`__"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:47
+#: 16f1e689901c4394bb089602b7e81624
+msgid "Contains a texture and tag denoting what type the texture is."
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:49
+#: ca89b33c2ac74202b03c1ab4d35d7f18
+msgid "``EXT_SECT``"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:50
+#: 97180d71d00c4f32b14da020fc9bede4
+msgid "**OPTIONAL**: Header for extended vendor data section"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:52
+#: 33e539bb136b44c9a342506e3a3e4c33
+msgid "Payload Count"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:53
+#: ef5f820685f24f9a94ea3ecabc44056d
+msgid "**IF EXT_SECT EXISTS** Amount of payloads that are in this section"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:54
+#: 7a73915b4a0843cab7a83f864a2bb72a
+msgid "*Till EXT Section End*"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:55
+#: f9d2480a559f4a8e982788c234257287
+msgid "`EXT Section Blob <#extended-vendor-data-blob>`__"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:56
+#: 4e4a63dd49a4425088f646ca3685ea3d
+msgid "**IF EXT_SECT EXISTS** The section blob of this EXT section."
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:59
+#: 0eeec6d70c14434ab036f7e4084c5d1c
+msgid "Texture Blob"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:61
+#: a02384914fc3443bbf530bee05160398
+msgid "Every texture entry in the Texture Blob have the following encoding"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:70
+#: f8d3485fabf34e29b034cb019afdf203
+msgid "Texture Payload Length"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:71
+#: 80238fa4698744599993ff89ab90a035
+msgid "Length of the Texture Payload"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:72
+#: ../../source/i2d/spec/inp.rst:113
+#: d3fcf8787a4147139192272b180fd914
+#: e053c06c2dc943c1a439a541a9e5fb74
+msgid "1"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:73
+#: edc23862f9244c1cadcc40e098ea8b14
+msgid "`Texture Encoding <#texture-encoding>`__"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:74
+#: 19754328a5cd46da9284d78e7a04e208
+msgid "A byte defining what texture encoding is in use. See Texture Encoding section."
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:76
+#: f14339b4219247558946b5707116eab9
+msgid "Texture Data"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:77
+#: 56ed8ea1003f441a8e0791f55e151f16
+msgid "Encoding of data depends on previous type"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:80
+#: f78fae076d67473a930e3f5920cec8c5
+msgid "Extended Vendor Data Blob"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:89
+#: b0b8798737bd4f039c1d5035d712df98
+msgid "Name Length"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:90
+#: 95403f1229e44fa7aa9a23fea390c5ef
+msgid "Length of EXT Payload name"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:91
+#: 24d3a574735a4244bfb16e35322107c3
+msgid "*Name Length*"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:92
+#: ad73c454538a4f8880aad67e14b8e07c
+msgid "Name"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:93
+#: 3f150be67f37497bb20cd81ce8b044c2
+msgid "The name of the EXT payload"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:95
+#: 21c7dadb5c5b4c1a8acabc9104500861
+msgid "Payload Length"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:96
+#: 7fcf84caee914717998c8142b92da5d9
+msgid "Length of the EXT payload"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:98
+#: fe14db6b3a244b1b8b07e033e63a1f79
+msgid "Payload"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:99
+#: 3d7114c8c0d24b87817d99614c46a2a1
+msgid "Contents of payload, encoding is up to the individual developer."
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:102
+#: 68ed743b42a240b2b3cf6f9b0c2343ee
+msgid "Texture Encoding"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:104
+#: 5cd72e817320436f90e07e4237756809
+msgid "There's 3 currently officially supported formats in Inochi2D, which are the following:"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:109
+#: c7793a95ee164360816d2e5e0965f52f
+msgid "ID"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:110
+#: 12f0ab16dd2044e294286ab994f78818
+msgid "Format"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:111
+#: 67738274e39f43f99edd081426598adf
+msgid "0"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:112
+#: c2e1ac4cd45a4594be5cf1542878cf99
+msgid "`PNG - Portable Network Graphics <https://en.wikipedia.org/wiki/Portable_Network_Graphics>`__ (Lossless)"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:114
+#: d1f6c657d91448ffb43933e80022e005
+msgid "`TGA - Truevision TGA <https://en.wikipedia.org/wiki/Truevision_TGA>`__ (Lossless)"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:115
+#: 84675df1f10a4141a08f656fcbc2690e
+msgid "2"
+msgstr ""
+
+#: ../../source/i2d/spec/inp.rst:116
+#: 69af8190660f4390832f56f3efdc423a
+msgid "`BC7 - BPTC Texture Compression <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ (Lossy)"
+msgstr ""

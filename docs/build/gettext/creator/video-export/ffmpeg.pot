@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-26 23:38+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/creator/video-export/ffmpeg.rst:3
+#: 4dd49ffb675f479bbefe0f0e0ff37211
+msgid "Installing FFMPEG"
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:7
+#: 66a66d1c6da542668017364ede5ea2be
+msgid "Installing FFMPEG on Windows"
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:9
+#: 67b10dbb4397423c9f971eefc6c59b87
+msgid "Currently you'll need to manually install ffmpeg on your system on Windows, we plan to support an automatic installer within Inochi Creator eventually."
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:12
+#: bc551cda13a3494e86b16721868174c6
+msgid "Manual local installation"
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:14
+#: 40eb3dcd75af4f5f8019c5ae7521232d
+msgid "Go to http://ffmpeg.org/download.html, and find the Windows packages."
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:15
+#: 96f71ce314da4f8b8b5572748a141f21
+msgid "Follow the instructions on the page you are redirected to"
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:16
+#: 5261eb89d7f246adb93325d6676b38b6
+msgid "Once you have the ZIP archive find the bin/ folder within it."
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:17
+#: b3bb61a345434ba1b6c98db531bb7b3a
+msgid "Put ffmpeg.exe next to inochi-creator.exe."
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:20
+#: cc033e453d0a4b2d82260e775844dac9
+msgid "System-wide with Chocolatey"
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:22
+#: abd07989b5484bf2b6dfe68da39f7eb9
+msgid "If you have `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`__ installed you can install ffmpeg system wide with it."
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:30
+#: e2ccbb9cff1346918b312f4a69c4aa94
+msgid "Installing FFMPEG on Linux"
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:32
+#: 3e019188a07047fd9faf3a9716017fbb
+msgid "Download FFMPEG from your system's package manager, on Ubuntu and Debian based systems the following command will install ffmpeg"
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:40
+#: f97415ce56e840c493374e8e7d4dba98
+msgid "Installing FFMPEG on macOS"
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:41
+#: 066a5ef7482d41d890a187c997965e98
+msgid "FFMPEG can be installed on macOS through homebrew, which you can install here https://brew.sh/"
+msgstr ""
+
+#: ../../source/creator/video-export/ffmpeg.rst:43
+#: 148fbf88ce8e4ffaa97839e57ec4bccc
+msgid "Once brew is setup you can run the following command to install ffmpeg to your system."
+msgstr ""
