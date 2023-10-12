@@ -29,7 +29,16 @@ If you have `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`__ insta
 Installing FFMPEG on Linux
 --------------------------
 
-Download FFMPEG from your system's package manager, on Ubuntu and Debian based systems the following command will install ffmpeg
+FFMPEG should work out of the box on the Flatpak. If not, run the following command:
+
+.. code-block::
+    :lineos:
+    
+    `flatpak install flathub org.freedesktop.Platform.ffmpeg-full
+    
+Install the latest two branches. as of May 2 2023, this is 21.08 and 22.08.
+
+For zipped builds, download FFMPEG from your system's package manager, on Ubuntu and Debian based systems the following command will install ffmpeg
 
 .. code-block:: 
     :linenos:
