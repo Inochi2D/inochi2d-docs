@@ -98,6 +98,16 @@ Creating our skeleton
     | 
     | Try to re-create this layout using the techniques above.
 
+.. tip:: 
+   .. container:: ada-block
+
+        .. image:: /img/ada-think.png
+            :class: ada
+            :align: left
+            :width: 128px
+    
+        | If you ever end up closing the Inspector, you can open again by opening the view menu at the top and clicking on Inspector 
+        
 .. admonition:: A challenge
     :class: custom
 
