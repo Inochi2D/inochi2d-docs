@@ -1,0 +1,28 @@
+.logo {
+    margin: 0 -8px;
+    margin-bottom: 8px;
+
+    a {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        text-decoration: none;
+        font-weight: $font-heading-weight;
+        color: currentColor;
+        padding: 8px 8px;
+        font-size: 14px;
+        border-radius: 8px;
+
+        &:hover {
+            background-color: rgb(0 0 0 / .05);
+        }
+
+        &:active {
+            background-color: rgb(0 0 0 / .07);
+        }
+    }
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}

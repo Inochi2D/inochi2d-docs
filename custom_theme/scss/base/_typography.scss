@@ -1,0 +1,101 @@
+html {
+    font-family: $font-body-family;
+    font-size: 14px;
+    color: $font-body-colour;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    font-weight: $font-heading-weight;
+    color: $font-heading-colour;
+    line-height: 1.333333;
+}
+
+h1 {
+    font-size: 1.476rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.383rem;
+    letter-spacing: -0.015em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.296rem;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: 1.215rem;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+a {
+    color: #7c3aed;
+    font-weight: 500;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #7c3aed7f;
+
+    &:hover {
+        text-decoration-color: #7c3aed;
+    }
+
+    &:active {
+        text-decoration-color: #7c3aed7f;
+        opacity: .5;
+    }
+}
+
+a.headerlink {
+    position: relative;
+    visibility: visible;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, p {
+    position: relative;
+    a.headerlink {
+        position: absolute;
+        left: 0;
+        margin-left: -24px;
+    }
+}
+
+hr {
+    border: 0;
+    background-color: #d4d4d8;
+    height: 1px;
+    margin: 2em 0;
+}
+
+ul {
+    margin: 1em 0;
+}
+
+table {
+    text-align: left;
+    font-size: 13px;
+
+    thead th {
+        border-bottom: 2px solid #e4e4e7;
+    }
+    p {
+        margin: 0;
+    }
+
+    th {
+        font-weight: 600;
+    }
+
+    th, td {
+        padding: 8px 0;
+    }
+}

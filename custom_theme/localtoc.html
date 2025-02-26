@@ -1,0 +1,5 @@
+{# Sphinx sidebar template: local table of contents. #}
+<div class="main-navigation">
+  <h3 class="screen-reader-text"><a href="{{ pathto(root_doc)|e }}">{{ _('Table of Contents') }}</a></h3>
+  {{ toctree(includehidden=theme_sidebar_includehidden, collapse=theme_sidebar_collapse) }}
+</div>

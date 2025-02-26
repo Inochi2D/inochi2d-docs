@@ -2,4 +2,3 @@
 sphinxext_opengraph
 sphinx_tabs
 sphinx-notfound-page
-sphinx_rtd_theme

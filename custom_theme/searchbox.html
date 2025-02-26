@@ -1,0 +1,14 @@
+{# Sphinx sidebar template: quick search box. #}
+{%- if pagename != "search" and builder != "singlehtml" %}
+<search id="searchbox" style="display: none" role="search">
+  <h3 class="screen-reader-text" id="searchlabel">{{ _('Quick search') }}</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="{{ pathto('search') }}" method="get">
+      <input placeholder="Search" type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <svg viewBox="0 0 20 20" fill="currentColor" style="width: 20px; height: 20px;"><path fill-rule="evenodd" d="M12.323 13.383a5.5 5.5 0 1 1 1.06-1.06l2.897 2.897a.75.75 0 1 1-1.06 1.06l-2.897-2.897Zm.677-4.383a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"></path></svg>
+      <input class="screen-reader-text" type="submit" value="{{ _('Go') }}" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+{%- endif %}

@@ -1,0 +1,10 @@
+div.sphinxsidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: $sidebar-width;
+    margin: 0;
+    overflow-x: auto;
+    padding: 12px 20px;
+}
