@@ -34,7 +34,7 @@ Format Layout
       - JSON Payload Length
       - Length of JSON Payload
     * - *Payload Length*
-      - JSON Data
+      - `JSON Object <#json-payload>`__
       - The Inochi2D model and rigging data
     * - 8
       - ``TEX_SECT``
@@ -54,6 +54,124 @@ Format Layout
     * - *Till EXT Section End*
       - `EXT Section Blob <#extended-vendor-data-blob>`__
       - **IF EXT_SECT EXISTS** The section blob of this EXT section.
+
+JSON Payload
+------------
+
+.. list-table::
+    :header-rows: 1
+
+    * - Key
+      - Type
+      - Notes
+    * - ``meta``
+      - `object(Puppet Meta) <#puppet-meta>`__
+      - Meta information (name, artist, etc) about the puppet
+    * - ``physics``
+      - `object(Physics) <#physics>`__
+      - Physics info
+    * - ``nodes``
+      - object(Node)
+      - The root node of the puppet, contains all other nodes
+    * - ``param``
+      - optional<list<Parameter>>
+      - The parameters of the puppet
+    * - ``automation``
+      - optional<list<Automation>>
+      - The parameters of the puppet
+    * - ``animations``
+      - optional<X>
+      - Named animations of the puppet
+
+Puppet Meta
+-----------
+
+.. list-table::
+    :header-rows: 1
+
+    * - Key
+      - Type
+      - Notes
+    * - ``name``
+      - optional<string>
+      - Name of the puppet
+    * - ``version``
+      - string
+      - Version of the Inochi2D spec that was used when creating this model
+    * - ``rigger``
+      - optional<string>
+      - Rigger(s) of the puppet
+    * - ``artist``
+      - optional<string>
+      - Artist(s) of the puppet
+    * - ``rights``
+      - `optional<object(Meta Rights)> <#meta-rights>`__
+      - Usage Rights of the puppet
+    * - ``copyright``
+      - optional<string>
+      - Copyright string
+    * - ``licenseURL``
+      - optional<string>
+      - URL of the license
+    * - ``contact``
+      - optional<string>
+      - Contact information of the first author
+    * - ``reference``
+      - optional<string>
+      - Link to the origin of this puppet
+    * - ``thumbnailId``
+      - optional<uint32>
+      - Texture ID of this puppet's thumbnail
+    * - ``preservePixels``
+      - boolean
+      - Whether the puppet should preserve pixel borders. This feature is mainly useful for puppets that use pixel art
+
+Meta Rights
+-----------
+
+.. list-table::
+    :header-rows: 1
+
+    * - Key
+      - Type
+      - Notes
+    * - ``allowedUsers``
+      - enum<``onlyAuthor|onlyLicensee|everyone``>
+      - Pixels-per-meter for the physics system
+    * - ``allowViolence``
+      - boolean
+      - Whether violent content is allowed
+    * - ``allowSexual``
+      - boolean
+      - Whether sexual content is allowed
+    * - ``allowCommercial``
+      - boolean
+      - Whether commercial use is allowed
+    * - ``allowRedistribution``
+      - enum<``prohibited|viralLicense|copyleftLicense``>
+      - Whether a model may be redistributed
+    * - ``allowModification``
+      - enum<``prohibited|allowPersonal|allowRedistribute``>
+      - Whether a model may be modified
+    * - ``requireAttribution``
+      - boolean
+      - Whether the author(s) must be attributed for use
+
+Physics
+-------
+
+.. list-table::
+    :header-rows: 1
+
+    * - Key
+      - Type
+      - Notes
+    * - ``pixelsPerMeter``
+      - optional<float>
+      - Pixels-per-meter for the physics system
+    * - ``gravity``
+      - optional<float>
+      - Gravity for the physics system
 
 Texture Blob
 ------------
