@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 19:05+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../creator/first-model/tutorial01.rst:3 e8abd5abe77d42d784877838bc30d3df
+msgid "1. Setting Up"
+msgstr "1. 設定"
+
+#: ../../creator/first-model/tutorial01.rst:7 e6e71cb92a964e88b86ca8e04e2ade17
+msgid "Getting the Tutorial Aka Model"
+msgstr "取得 Aka 範例模型"
+
+#: ../../creator/first-model/tutorial01.rst:9 9c7a99b90f26452b9530dd0aaacdfabc
+msgid "Download the tutorial Aka model from :download:`here <tutorial-aka.psd>`."
+msgstr "從\\ :download:`這裡 <tutorial-aka.psd>`\\下載 Aka 範例檔案。"
+
+#: ../../creator/first-model/tutorial01.rst:11 9c290555bf6a4c15995a2169a15c72ca
+msgid ""
+"This is a version of the Aka example model by Seagetch, but with only the "
+"head, which is what we'll focus on."
+msgstr ""
+"這是由 Seagetch 製作的 Aka 範例模型，但只包含頭部，這也是我們一開始要專注的地"
+"方。"
+
+#: ../../creator/first-model/tutorial01.rst:16 f553269d63c542479bee65eb717f3187
+msgid "Importing the model in to Creator"
+msgstr "匯入模型至 Creator "
+
+#: ../../creator/first-model/tutorial01.rst:20 c367355c14a44677ac560393af4128dc
+msgid ""
+"To import Aka, either click ``Import PSD`` within the startup window, or "
+"select ``File->Import->Photoshop Document`` from the main menu."
+msgstr ""
+"要匯入 Aka，點擊歡迎畫面上的\\ ``匯入``\\中的\\ ``匯入PSD``\\，或者選擇主選單"
+"\\ ``檔案->匯入-> Photoshop 檔案``\\。"
+
+#: ../../creator/first-model/tutorial01.rst:22 a83ba145296c44f4b7f9627ee3fbb87a
+msgid "Once selected Inochi Creator should look like this:"
+msgstr "匯入完畢後，Inochi Creator 應該長得像這樣："
+
+#: ../../creator/first-model/tutorial01.rst:26 37d29e11cd034fd1935bfe4313a35e50
+msgid "Something's off..."
+msgstr "等等，好像哪裡怪怪的..."
+
+#: ../../creator/first-model/tutorial01.rst:36 78a0287f417c4cd7a44e43d9737db272
+msgid ""
+"You may wonder why the shadows are looking all garbled on her right now, right?"
+msgstr "你可能會很疑惑為什麼現在那些影子會糊在一起，對吧？"
+
+#: ../../creator/first-model/tutorial01.rst:38 1f8d59bfd433474eb222d0347fcffb45
+msgid ""
+"All the shadow layers in the PSD are just bundled on to each other, so shadows "
+"cast shadows on shadows. We'll fix that in the coming chapters!"
+msgstr ""
+"因為目前 PSD 裡的所有陰影圖層只是單純地堆疊在一起，導致陰影會重疊在陰影上。我們"
+"會在後續的章節中解決這個問題！"
+
+#: ../../creator/first-model/tutorial01.rst:44 e2241172ad9e436b8973c8dfedfea194
+msgid "Saving and Loading a Model"
+msgstr "儲存及載入模型"
+
+#: ../../creator/first-model/tutorial01.rst:46 7248ab2d08c941bfa5953d2ce92dd099
+msgid "Now that we have the model loaded in to Inochi Creator, let's save it!"
+msgstr "現在我們已經將模型匯入至 Inochi Creator 中，我們來儲存它吧！"
+
+#: ../../creator/first-model/tutorial01.rst:48 ce7a323a4e304f40bf02ccb9e37e85f4
+msgid ""
+"Go to the ``File->Save`` option in the main menu and select where to save it."
+msgstr "點擊主選單中的\\ ``檔案->儲存``\\並選擇儲存的地方。"
+
+#: ../../creator/first-model/tutorial01.rst:49 b2ce755330144319bd3bdd052417ee8a
+msgid "For now, let's save it as ``FirstModel`` in a location of your choosing."
+msgstr "現在，我們先將檔案命名為\\ ``FirstModel``\\。"
+
+#: ../../creator/first-model/tutorial01.rst:51 4e84c14cad4849158a0d3dcd3820790a
+msgid ""
+"If you now close and re-open Inochi Creator your project should be visible in "
+"the Recent Projects list!"
+msgstr ""
+"如果你現在關閉程式並重新開啟它，你的專案應該會在\\ **最近專案**\\列表中！"

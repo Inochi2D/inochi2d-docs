@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 18:59+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../index.rst:14 ../../index.rst:58 fe94214763d3410a8051ab85c3cd201c
+msgid "Inochi Creator"
+msgstr ""
+
+#: ../../index.rst:15 ../../index.rst:70 b062a9c096e9487789318df24ad70a94
+msgid "Inochi Session"
+msgstr ""
+
+#: ../../index.rst:78
+msgid "Inochi2D"
+msgstr ""
+
+#: ../../index.rst:88
+msgid "Inox2D"
+msgstr ""
+
+#: ../../index.rst:97
+msgid "Technical Specification"
+msgstr "技術規範"
+
+#: ../../index.rst:3 62344dd21ec2443a8567ebddd91968bd
+msgid "Welcome to the Inochi2D Documentation"
+msgstr "歡迎來到Inochi2D文檔"
+
+#: ../../index.rst:5 aa0dd600be0048a2b9a00d06c20011fb
+msgid ""
+"On this page, you will find documentation for the officially supported projects "
+"under the Inochi2D banner. Use the sidebar on the left to select a project to "
+"get documentation from, and a topic you want to read about."
+msgstr ""
+"在這裡，你可以找到具有官方支援的Inochi2D文件。使用左側的側邊欄來快速找到你需要閱"
+"讀的章節。"
+
+#: ../../index.rst:9 02aa32f60da2440ab1ab36369b6c70a1
+msgid "What is Inochi2D?"
+msgstr "什麼是Inochi2D？"
+
+#: ../../index.rst:11 0397e23431674162a1d18ec3339b13db
+msgid ""
+"Inochi2D is an open source specification for a 2D character animation system "
+"that allows characters to be animated in real-time for games and VTubing. "
+"Inochi2D achieves this by deforming textures in real time based on parameters "
+"the rigger sets in Inochi Creator."
+msgstr ""
+"Inochi2D 是一個可以讓 2D 角色在虛擬直播或遊戲裡即時模擬的開源工具。我們透過設計"
+"者設定參數，改變材質的位置及形狀來實現這個效果。"
+
+#: ../../index.rst:17 623a324334af408bba7dffba703b0548
+msgid "This documentation page covers:"
+msgstr "本文檔包含："
+
+#: ../../index.rst:16 3f502748b8244c9ca9685e2649f7319f
+msgid "Inochi2D Specification for implementers"
+msgstr "Inochi2D技術規範"
+
+#: ../../index.rst:17 891ec635e31740c6899f6e6376a410b8
+msgid "Inochi2D SDK for developers"
+msgstr "供開發者使用的Inochi2D SDK"
+
+#: ../../index.rst:19 bb27225fd04d48cfa997ae391d0f782b
+msgid ""
+"**Inochi Creator** is the official tooling to create animated rigs for use with "
+"Inochi2D compliant software and games."
+msgstr ""
+"**Inochi Creator** 是官方推出的模型製作工具，用於製作模型並使模型可以在支援"
+"Inochi2D的軟體或遊戲中使用。"
+
+#: ../../index.rst:21 4416365fa461441391f1638d4eaa8e4c
+msgid ""
+"**Inochi Session** is the official tooling to use Inochi2D models for VTubing, "
+"using various forms of body and face tracking."
+msgstr "**Inochi Session** 是一個使用臉部追蹤來讓Inochi2D模型移動的工具。"
+
+#: ../../index.rst:23 e308c5915bc24729a798cd45ca061080
+msgid ""
+"**Inochi2D Specification** is meant for developers that want to implement "
+"Inochi2D in their preferred engine."
+msgstr "**Inochi2D技術規範** 則是給想要使用Inochi2D在自己的軟體中的開發者。"
+
+#: ../../index.rst:25 01dd62d903b5403184186e9842e4c7e9
+msgid ""
+"**Inochi2D SDK** is the official Software Development Kit that allows "
+"integrating Inochi2D in to your games and software."
+msgstr ""
+"**Inochi2D SDK** 是官方的軟體開發包，可供你將Inochi2D使用在你的遊戲及軟體。"
+
+#: ../../index.rst:30 b6d66b283ae64505a33a1d5f3926794a
+msgid "Meet Ada"
+msgstr "這是Ada"
+
+#: ../../index.rst:40 bc224c6a52c240c7a4b2c052d7bd8f61
+msgid ""
+"Ada is Inochi2D's mascot, an airheaded, friendly and helpful foxgirl. She will "
+"appear throughout the documentation with tips, warnings and other tidbits of "
+"information that may be useful."
+msgstr ""
+"Ada 是我們的吉祥物，一位傻傻的、友善的、熱心的狐狸女孩。他會在這份文檔的各個地方"
+"提供一些小指引、警語或者實用的小撇步。"
+
+#: ../../index.rst:42 6048c472b6304a908a3d375ae1efb3c2
+msgid "Hello, there!"
+msgstr "嗨！"
+
+#: ../../index.rst:52 954af22db04a421ea469c6e58fbb0c40
+msgid ""
+"Nice to meet ya! I'm Ada, local vertex engineer fox! Please don't mind me "
+"shedding a bit of fur on your experience 🦊"
+msgstr ""
+"很高興認識你！我是Ada，一個在地的工程師狐狸！我會在這個文檔中一直陪伴著你🦊"
+
+#: ../../index.rst:54 a1a831eedcb340f0be44b578d7309b6d
+msgid ""
+"Oh, and don't forget: If you have questions not covered here you can always "
+"reach out to us on `our Discord <https://discord.gg/invite/abnxwN6r9v>`__!"
+msgstr ""
+"喔對了，如果你有任何問題，歡迎加入\\ `我們的Discord <https://discord.gg/invite/"
+"abnxwN6r9v>`__\\詢問我們！"

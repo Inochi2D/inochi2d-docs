@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 19:06+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../spec/inp/profiles.rst:3 58b8d46494e9403cb21a39bb2f562bde
+msgid "Profiles & Extensions"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:5 362000a9ed3f42118af1f08380964f26
+msgid ""
+"**NOTE**: Profiles and extensions are a *to be implemented* feature of the "
+"Inochi2D specification."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:6 890f20dd744142faa88564a4e19c79fe
+msgid "*Most of this documentation is preliminary context.*"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:8 502215427bd54d53bd00333e08e4ab56
+msgid ""
+"The Inochi2D format is meant to be portable and usable across many "
+"platforms, but for some usescases you want more powerful features."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:9 55dc0a66a9ed4033ac40cbda033d316c
+msgid ""
+"For example, maybe you're targeting modern PCs or smartphones and your "
+"project's artists want more flexibility in how they render their art."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:10 6a012c4c4db042b5941e8b3a8c85fdac
+msgid "Inochi2D provides Profiles and Extensions to cover these needs."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:12 f5238c9ee8d7401ba64199b0d8f34df8
+msgid ""
+"Inochi2D is split up in to 3 main profiles, each profile being a superset of "
+"the other."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:14 ff479564773640ffbc093bb44641afcf
+msgid "Core"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:15 ../../spec/inp/profiles.rst:141
+#: ../../spec/inp/profiles.rst:144 5732df94d24a49959792aa5628f52c32
+#: 5bad3a6de24549fd8d2dd87be29e1d2f d528bcfe3b4047beb4c0cf43068e0f0a
+msgid "Standard"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:16 956ba500168e4becb79f1f38ff4d09d7
+msgid "Extended"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:18 b6b22e67c37244d8a8ee8ace2bd7255a
+msgid ""
+"Additionally Inochi2D will be supporting named extensions to the format, so "
+"that implementors can chose to add, remove or modify features of the spec "
+"for their needs."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:19 5bc1b7a635854045b67c12136b1e01c1
+msgid ""
+"Every vendor which makes an extension has a unique prefix. The official "
+"Inochi2D Extension prefix is ``I2D``."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:20 43b96465f8074cd1be5e33525cf5acd1
+msgid ""
+"Extensions will depend on a profile and Inochi2D version to be available, "
+"the extensions will in general specify which version of Inochi2D they target "
+"and what profile."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:25 4ce0220dea704368bfc60c2e4a880fa2
+msgid "Tag"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:26 9726895e257641419479f68497c09e0f
+msgid "Vendor"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:27 60157ebfe238477a8956b3d207d0a72b
+msgid "I2D"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:28 ac889a8b9acb468587f8a536e971acdb
+msgid "Inochi2D Project"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:35 dcb63346320a45a8aa505a33aa8e1296
+msgid "Profiles"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:37 324409957a494ffd83cf80a6bf3cda8d
+msgid "Following are the profiles specced out for Inochi2D as of current."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:38 2c4d8bccbaff49c49c6c98f05d5fea73
+msgid "This list may be subject to change."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:42 b4fe324b63c443cdb0736ee0154f46d3
+msgid "The Core Profile"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:44 d99d4ff04e7d47eeb935b4b91e666949
+msgid ""
+"Core is meant for low power devices which may not have recent features, "
+"think PCs from 2012 and newer, or smartphones from 2013."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:45 29043c508e7844a3b0df4a04eddcdd74
+msgid ""
+"As such, Core is quite stripped down compared to what you see in Inochi "
+"Creator by default, and is to some extent rather limited."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:46 207fa98f3b4e4c76866944b523397753
+msgid ""
+"Due to the nature of the core profile it's not recommended for most use "
+"cases, only use this if you're targetting really old hardware."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:53 ../../spec/inp/profiles.rst:80
+#: ../../spec/inp/profiles.rst:108 5c926c5a7b2c44e6b7a7e5ab6b22b9f3
+#: 83b1b34681fd41a0917efadda24bbf64 99bc44b0c04f4ff68b217d20c812eac8
+msgid "Minimum"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:54 ../../spec/inp/profiles.rst:81
+#: ../../spec/inp/profiles.rst:109 060abe1ba2b04f8e936be9148a65438c
+#: 50377573d87a47d893655d91689b0a8a 55c84e2f48d142db9a974b2a37de5d9e
+msgid "Recommended"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:55 ../../spec/inp/profiles.rst:82
+#: ../../spec/inp/profiles.rst:110 b9204c09787d4af59a71a1d4cfc9a088
+#: c882d084447948a28969b2fb3ce20e1d f759aa9fb8e8454e88a9cf898b37e53c
+msgid "GL"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:56 ec20bf7a6a864cc5b95620c61d34ab81
+msgid "2.1"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:57 9abba9b0f5cc4c3ba610811cd922d8c4
+msgid "2.2"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:58 ../../spec/inp/profiles.rst:85
+#: ../../spec/inp/profiles.rst:113 38800f200cd34f6584fb592252a5d4a0
+#: a89e809d4630422b8c36b47928cec949 c38fca869dad4ffb917b782104ce1599
+msgid "DirectX"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:59 1c1087add5424c159e17854f24dcb0ca
+msgid "9"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:60 ../../spec/inp/profiles.rst:86
+#: ../../spec/inp/profiles.rst:114 3727a3e8da3c4532af1751ad80720136
+#: a4190acfb92f415aa55cc515a19afb0a f61c4a4d82164aadada04ab7a23f6717
+msgid "10"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:61 ../../spec/inp/profiles.rst:88
+#: ../../spec/inp/profiles.rst:116 772a4b2942d848239c088efcbcc9c451
+#: ba47110aaf4844a28cb132b62ecac8be bdbd8e159804403a9b18b6a5e4f4d2cf
+msgid "Vulkan"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:62 ../../spec/inp/profiles.rst:63
+#: ../../spec/inp/profiles.rst:89 ../../spec/inp/profiles.rst:117
+#: 285fc4e039f3453eb3feafebab1fee92 8620d4c4991140d4a98209ad1d4471f9
+#: c4b174051d7a4b19a4f4cac9f8ba45d0 e3489c709aeb42d498f250315dd2082c
+msgid "1.0"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:64 ../../spec/inp/profiles.rst:91
+#: ../../spec/inp/profiles.rst:119 3e533ea214b848c4968d44ce45410298
+#: 5197730574384ec09c96050d27c3cdb1 7269d7fd1077493cbbc38e4974618f1f
+msgid "Metal"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:65 ../../spec/inp/profiles.rst:66
+#: ../../spec/inp/profiles.rst:92 ../../spec/inp/profiles.rst:93
+#: ../../spec/inp/profiles.rst:120 ../../spec/inp/profiles.rst:121
+#: 016d028761ba405b9dea66ad182e3894 0bbbe04f569c4a3baad9dbd00670d30d
+#: 0c86a6567d624174a1e9d0d1cb09a186 1556add738684e49b30032caa53e3400
+#: 4a43f1b4a8de4f429d1e69e6a646ef31 d5bff2cda4f74269833c4ce2c8a7980e
+msgid "Latest"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:70 de47ce546c5a47738d2bfceb6c96c2df
+msgid "The Standard Profile"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:72 63f6966e4f8b4c05adfcecafc2793385
+msgid "The standard profile is the profile most people should be targeting."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:73 7091ec8c36354a6cb06609d9b9e2bcc1
+msgid ""
+"It's aimed at modern PCs, phones and games consoles, although some features "
+"may need to be approximated on some platforms, it's the best in terms of "
+"feature-to-stability ratio."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:83 ../../spec/inp/profiles.rst:111
+#: 17abd7c989b74fd487378b2cc31366f2 fd9c25a25f634a678025044d3fd7dc55
+msgid "3.1"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:84 28a02b99bca24833918c2e48ee09216c
+msgid "3.2"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:87 ../../spec/inp/profiles.rst:115
+#: 653d5dca896e4395a24f6a83be6b5044 83fc241b046d471c8f643ec763a0149d
+msgid "12"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:90 ../../spec/inp/profiles.rst:118
+#: 0a5d8cc8eed747b292b2a980b5ce3c9a dcc20f6da6cd4b94b09a60262783cd69
+msgid "1.3"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:97 a9260c92a73a42ea90c23006bdab8fe7
+msgid "The Extended Profile"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:99 a32958bf5076462e8a9ba3d661d8baea
+msgid ""
+"The extended profile contains features that have a potential of making it in "
+"to Standard."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:100 b63ebf413189478eb809be57fd14f636
+msgid ""
+"These features can be very experimental in nature and is, in general, not "
+"recommended for production use."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:101 ebfcf81270d04bf7818dee83fc7e9ba8
+msgid ""
+"Generally things making it to Extended should start out as extensions "
+"instead."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:112 ccd006549ca5457996f00fbdcf66f926
+msgid "4.5"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:128 475e2d13b49d47e2b5a127d9da9fc1cc
+msgid "Extensions"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:130 fc63c9241c6c48ef928b698741d6fae3
+msgid "Extensions recognized by the Inochi2D Project are listed here."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:131 91a87086102041788308ca78bffce5a7
+msgid ""
+"If more documentation is available about the extension, said documentation "
+"can be seen by clicking the name of the extension."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:136 d43298727b9f4a2aa982546758c0c00b
+msgid "Name"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:137 de24572fc6c2478c9591c9dd454f9447
+msgid "Version"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:138 d8b18928dc5e488fa98c112835c81364
+msgid "Profile"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:139 3f6dc541d63d404cbba7887b6ffaa0cb
+msgid "I2D_BLEND_ACCURACY [#early_extension]_"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:140 ../../spec/inp/profiles.rst:143
+#: 476502bb713e4513883fd2b295c27017 5a5a372c9fa04c0a8f3e93cd4b177c38
+msgid "0.8"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:142 d112af2cb4744e0187d07045e8cd0166
+msgid "I2D_EXTENDED_BLEND_MODES [#early_extension]_"
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:146 d86b999f31b54b07a4eb48aac7a3fc7f
+msgid "This extension was introduced before extensions were added to the spec."
+msgstr ""
+
+#: ../../spec/inp/profiles.rst:148 8e4e067bc4154bf2a0413d55ef756151
+msgid ""
+"As such, older Inochi2D implementations will more or less just assume it's "
+"there."
+msgstr ""

@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 18:59+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../creator/getting-started.rst:3 1a88eeaae9bc46e8a05c5eba780a2573
+msgid "Getting Started"
+msgstr "開始使用"
+
+#: ../../creator/getting-started.rst:6 e7cb0e023f3d46beb2af9de1668c25c8
+msgid "System Requirements"
+msgstr "系統需求"
+
+#: ../../creator/getting-started.rst:8 4a1866561aea45fabf77234ea7c0ac5d
+msgid "The following system requirements have to be met before running Inochi Creator."
+msgstr "想要在你的電腦上使用 Inochi Creator，你的電腦配置必須符合以下列表："
+
+#: ../../creator/getting-started.rst:15 ad5e407708054e40acbc17cffb8ab3b3
+msgid "Minimum"
+msgstr "基本"
+
+#: ../../creator/getting-started.rst:16 c5062ec7106e4630a4b20976fbb1dbf0
+msgid "Recommended"
+msgstr "建議"
+
+#: ../../creator/getting-started.rst:17 a776a1eceea547038aaa0b3d3ea33eb6
+msgid "Processor"
+msgstr "處理器(CPU)"
+
+#: ../../creator/getting-started.rst:18 afa10cb03f3a4fa88c76f79ef97b4001
+msgid "x86_64 or ARM64 CPU [#req_cpu]_"
+msgstr "x86_64 或 ARM64 CPU [#req_cpu]_"
+
+#: ../../creator/getting-started.rst:19 7b9e716bc3934485b15f3700eeb4f216
+msgid "Recent x86_64 or ARM64 CPU [#req_cpu]_"
+msgstr "近期推出的 x86_64 或 ARM64 CPU [#req_cpu]_"
+
+#: ../../creator/getting-started.rst:20 5d9d28efde9e47d99769ff0192120d81
+msgid "Memory"
+msgstr "記憶體"
+
+#: ../../creator/getting-started.rst:21 69238b3152314a01958eaa9f57906f9a
+msgid "512 MB"
+msgstr ""
+
+#: ../../creator/getting-started.rst:22 534f7ce5c10a46a4b5e11de4437f6f6b
+msgid "1 GB or more"
+msgstr "1 GB 以上"
+
+#: ../../creator/getting-started.rst:23 78ad14d7835f46c9b85f3fd04d8bb5d8
+msgid "Disk Space"
+msgstr "硬碟空間"
+
+#: ../../creator/getting-started.rst:24 df75937d48114093ac67459905d51aa7
+msgid "100 MB or more [#req_space]_"
+msgstr "100 MB 以上 [#req_space]_"
+
+#: ../../creator/getting-started.rst:25 9092d4e07a1b43648e9bef33a9190cb2
+msgid "500 MB or more [#req_space]_"
+msgstr "100 MB 以上 [#req_space]_"
+
+#: ../../creator/getting-started.rst:26 ad675fafbe5746089b3c77625694eb85
+msgid "Graphics Processor"
+msgstr "圖形處理器(GPU)"
+
+#: ../../creator/getting-started.rst:27 27338195c1a2416ca6a18c5498412741
+msgid "OpenGL 3.2 Support [#req_gl]_, 512 MB VRAM"
+msgstr "支援 OpenGL 3.2 [#req_gl]_ 並包含 512MB VRAM"
+
+#: ../../creator/getting-started.rst:28 23a89e25a3f74338a15d61f9cf21c9b1
+msgid "OpenGL 3.2 Support [#req_gl]_, 1 GB VRAM or more"
+msgstr "支援 OpenGL 3.2 [#req_gl]_ 並包含 1GB 以上的 VRAM"
+
+#: ../../creator/getting-started.rst:29 e755f9fa230e4e429770c1184ddff9d6
+msgid "Display Resolution (Pixels)"
+msgstr "螢幕解析度（像素）"
+
+#: ../../creator/getting-started.rst:30 e4c6407e0ec7432b8b043382d156f3b1
+msgid "960x800"
+msgstr "960 x 800"
+
+#: ../../creator/getting-started.rst:31 426318ad78b54e12915e35c63b483b42
+msgid "1920x1080 or higher"
+msgstr "1920 x 1080 以上"
+
+#: ../../creator/getting-started.rst:33 7e924ab7a8cb42e9971b81c2da5c1630
+msgid ""
+"Inochi Creator does not support 32 bit systems currently to reduce the maintenance burden."
+msgstr "因人力有限，Inochi Creator 目前不支援 32-bit 系統。"
+
+#: ../../creator/getting-started.rst:39 e60351194b844d6b854b3383fcf7b9cd
+msgid "Downloading Inochi Creator"
+msgstr "下載 Inochi Creator "
+
+#: ../../creator/getting-started.rst:41 cd4a3433abc34929bde50e73dc54675f
+msgid ""
+"Inochi Creator is released in 2 streams, **Stable** and **Nightly**. Stable releases are "
+"generally recommended for having better stability, but it lacks behind in features with "
+"Nightly. Meanwhile, Nightly is built by GitHub from the latest code every night, this means "
+"it has the latest features, but also the latest bugs."
+msgstr ""
+"Inochi Creator 有下列兩種版本：**穩定版本** 及 **Nightly 版本**。穩定版本有較好的穩定性，但"
+"它缺乏最新的功能。Nightly 版本依據每一天的最新的程式碼建立而成，具有最新的功能，但同時也會有"
+"較多的 Bug。"
+
+#: ../../creator/getting-started.rst:50 5955934f94ea4d148aea83c2d4a816f5
+msgid "**Stable** is available to download on:"
+msgstr "\\ **穩定版本**\\  可以在："
+
+#: ../../creator/getting-started.rst:47 428bfac51216427b931787e3150ea842
+msgid "`Our Website <https://inochi2d.com>`__"
+msgstr "\\ `我們的官方網站 <https://inochi2d.com>`_\\ "
+
+#: ../../creator/getting-started.rst:48 994ffef1ff1e4cc99d473204828d5b63
+msgid "`Itch.io <https://lunafoxgirlvt.itch.io/inochi-creator>`__"
+msgstr "\\ `Itch.io <https://lunafoxgirlvt.itch.io/inochi-creator>`_\\ "
+
+#: ../../creator/getting-started.rst:49 2ce5b34b5baa4ca7880f9b2e03909faa
+msgid "`GitHub <https://github.com/Inochi2D/inochi-creator/releases/latest>`__"
+msgstr "\\ `GitHub <https://github.com/Inochi2D/inochi-creator/releases/latest>`_\\ "
+
+#: ../../creator/getting-started.rst:50 0cc0643285d644208fa2b0d60486f287
+msgid "`Flathub <https://flathub.org/apps/details/com.inochi2d.inochi-creator>`__"
+msgstr ""
+"及 \\ `Flathub <https://flathub.org/apps/details/com.inochi2d.inochi-creator>`_\\ 中下載。"
+
+#: ../../creator/getting-started.rst:53 e67ace6253e4400d937d0f9651fb83ff
+msgid "**Nightly** is available to download on:"
+msgstr "**Nightly版本** 可以在："
+
+#: ../../creator/getting-started.rst:53 968bd1fca9e846b5b232b0e514896602
+msgid "`GitHub <https://github.com/Inochi2D/inochi-creator/releases/tag/nightly>`__"
+msgstr ""
+"\\ `GitHub <https://github.com/Inochi2D/inochi-creator/releases/tag/nightly>`_\\ 中下載。"
+
+#: ../../creator/getting-started.rst:55 321caf4465c44de785b1b81893b975d4
+msgid ""
+"If you use *Itch.io's Launcher* or *Flatpak*, Inochi Creator will automatically stay "
+"updated. Our ZIP and DMG packages do currently not auto-update, but we plan to change this "
+"in the future."
+msgstr ""
+"如果你使用 *Itch.io* 或 *Flatpak* 下載 Inochi Creator，Inochi Creator 會自動保持最新版本。目"
+"前，我們的 ZIP 及 DMG 檔案並不支援自動更新，但我們計畫在之後加入此功能。"
+
+#: ../../creator/getting-started.rst:66 4ad2fb963e5e43dcb556beac2f8b1278
+msgid ""
+"Nightly builds are not stable, we really don't recommend using them unless you know what "
+"you're doing. Nightly builds are likely to crash and can corrupt your files in the process!"
+msgstr ""
+"Nightly 版本不穩定，除非你可以承擔較多的 Bug，否則我們不建議你使用 Nightly 版本。Nightly 版"
+"本很有可能在運作時崩潰並損壞你的檔案，請特別留意！"
+
+#: ../../creator/getting-started.rst:68 83f66b99ddeb413baf82bdc39269fd29
+msgid "Make frequent backups!"
+msgstr "記得常常存檔！"
+
+#: ../../creator/getting-started.rst:73 13e240be977249dba7c75a9cfe51ab48
+msgid "First Time Setup"
+msgstr "設定 Inochi Creator"
+
+#: ../../creator/getting-started.rst:75 103e6d79efc34d768a0e0f0b5de27f8c
+msgid ""
+"First time you launch Inochi Creator the Welcome Screen will pop up, you can set some basic "
+"settings here like Color Theme, Language and UI Scaling [#ui_nomac]_."
+msgstr ""
+"第一次開啟 Inochi Creator 時，會有一個歡迎視窗，你可以在這裡設定主題、語言及 UI 大小。"
+"[#ui_nomac]_"
+
+#: ../../creator/getting-started.rst:83 04ec7e51a66a44189ef57e742b1bd4a8
+msgid ""
+"Inochi Creator supports multiple languages, so if English is not your first language you "
+"may change the language, by clicking the dropdown in the \"Language\" section"
+msgstr "Inochi Creator 支援多種語言，如果你不熟悉英文，可以在\\「Language」\\中修改。"
+
+#: ../../creator/getting-started.rst:86 e9ce2b4418b34556b5a86315ab1350b6
+msgid ""
+"After having set up the basic settings you are then free to start creating Inochi2D models!"
+msgstr "設定完畢後，你就可以開始建立你的 Inochi2D 模型了！"
+
+#: ../../creator/getting-started.rst:88 1eaa7bfe97b34adea482e3268dbcb8d8
+msgid ""
+"You can download example models on the same page you downloaded the version of Inochi "
+"Creator you installed."
+msgstr "你可以在你下載 Inochi Creator 的地方下載範例模型。"
+
+#: ../../creator/getting-started.rst:93 f80930f061494f3fbfe82f09896f1285
+msgid "Notes"
+msgstr "註解"
+
+#: ../../creator/getting-started.rst:95 b02a37ecbdeb46a4ae26876a239656db
+msgid "*x86_64 and ARM64 refers to 64 bit CPUs by ARM, Intel and AMD.*"
+msgstr "*x86_64 與 ARM64 是指 ARM, Intel 及 AMD 提供的 64 位元的 CPU 。*"
+
+#: ../../creator/getting-started.rst:98 554b973603ee46719fb0c942cc040c4e
+msgid ""
+"*Disk Space requirements depend on the size and amount of models you have on your system.*"
+msgstr "硬碟空間依據你的 Inochi2D 模型大小及數量而定。"
+
+#: ../../creator/getting-started.rst:101 b4022bc1e9234b05a2ab47540d8ab08a
+msgid "*OpenGL 3.2 is supported on the following GPUs:*"
+msgstr "以下 GPU 支援 OpenGL 3.2："
+
+#: ../../creator/getting-started.rst:103 0fc26e670fc14d20b4be4790814fa0b1
+msgid "Gen 6 or later Intel HD Graphics on Linux and macOS"
+msgstr "Linux 及 MacOS：第六代及更新的 Intel CPU 內顯"
+
+#: ../../creator/getting-started.rst:104 9be7247605724394857e942a8c585761
+msgid "Gen 7 or later Intel HD Graphics on Windows"
+msgstr "Windows：第七代及更新的 Intel CPU 內顯"
+
+#: ../../creator/getting-started.rst:105 b5ad0d2854b047dd98dba826d8b096a4
+msgid "Nvidia GeForce 8 series or later"
+msgstr "Nvidia GeForce 8 系列及以上"
+
+#: ../../creator/getting-started.rst:106 2fad54d4a0fb4d3fb95a248888186e47
+msgid "AMD Radeon HD 2000 series or later (marketed as TeraScale 1)"
+msgstr "AMD Radeon HD 2000 系列及以上 (marketed as TeraScale 1)"
+
+#: ../../creator/getting-started.rst:107 62e4de6bb1d84c118f2d8be55a6f03ef
+msgid "Apple Silicon M1 or later (OpenGL 3.1 with required extensions)"
+msgstr "Apple Silicon M1 系列及以上 (OpenGL 3.1 及必要的擴充套件)"
+
+#: ../../creator/getting-started.rst:109 d2acdade137d4247bb41780256c8f1fe
+msgid "VRAM requirements depend on the size of the model and texture count."
+msgstr "VRAM 需求依據你的模型細緻度與材質而定。"
+
+#: ../../creator/getting-started.rst:111 6be61ff1d68d494c906ee363cd177d47
+msgid "*You will not see the UI scaling option on macOS*"
+msgstr "*你不會在 macOS 上看到UI縮放選項*"
+
+#: ../../creator/getting-started.rst:113 4acef7510aff4af2a43fcc46f1222c22
+msgid ""
+"*This is intentional, UI Scaling is handled by the operating system on systems running "
+"macOS, To change the UI Scaling, open the system settings and change the UI scaling there.*"
+msgstr ""
+"這是有目的的。在 macOS 上，UI 縮放是被作業系統所控制的。欲縮放 UI，請開啟系統設定並修改系統"
+"設定。"

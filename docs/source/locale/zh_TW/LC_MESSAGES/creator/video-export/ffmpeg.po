@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 18:46+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../creator/video-export/ffmpeg.rst:3 edc5f0f367894eeb8f163fc1ceef498c
+msgid "Installing FFMPEG"
+msgstr "安裝 FFmpeg "
+
+#: ../../creator/video-export/ffmpeg.rst:7 e47e11a5c31448f1b9f96a4aad4412d9
+msgid "Installing FFMPEG on Windows"
+msgstr "在 Windows 上安裝 FFmpeg"
+
+#: ../../creator/video-export/ffmpeg.rst:9 a83bfc8e51cb49efa6cddd2b653049b8
+msgid ""
+"Currently you'll need to manually install ffmpeg on your system on Windows, we plan to "
+"support an automatic installer within Inochi Creator eventually."
+msgstr ""
+"目前你需要在 Windows 上手動安裝 FFmpeg，但是我們計劃以後在 Inochi Creator 裡整合自動安裝程"
+"式。"
+
+#: ../../creator/video-export/ffmpeg.rst:12 69d5f9fb7e004e23907bee166e71dae2
+msgid "Manual local installation"
+msgstr "手動本地安裝"
+
+#: ../../creator/video-export/ffmpeg.rst:14 02104db9c1dd4793aecb62315d035622
+msgid "Go to http://ffmpeg.org/download.html, and find the Windows packages."
+msgstr "前往 http://ffmpeg.org/download.html，並尋找 Windows 程式包。"
+
+#: ../../creator/video-export/ffmpeg.rst:15 eed6e08373cb420e9099f746b0cf9cd9
+msgid "Follow the instructions on the page you are redirected to"
+msgstr "按照導引頁面上的說明進行下載。"
+
+#: ../../creator/video-export/ffmpeg.rst:16 a82841e308d2411c82a0ea523ebc9014
+msgid "Once you have the ZIP archive find the bin/ folder within it."
+msgstr "下載檔案並解壓縮後，尋找資料夾內的 bin/ 資料夾。"
+
+#: ../../creator/video-export/ffmpeg.rst:17 ca8a6be094ff465aac9b76bda38c78a5
+msgid "Put ffmpeg.exe next to inochi-creator.exe."
+msgstr "將 ffmpeg.exe 放在與 inochi-creator.exe 一樣的資料夾中。"
+
+#: ../../creator/video-export/ffmpeg.rst:20 facfae85cc7b4553b2c764c2da71922a
+msgid "System-wide with Chocolatey"
+msgstr "用 Chocolatey 安裝系統級的 FFmpeg"
+
+#: ../../creator/video-export/ffmpeg.rst:22 172a1f8a3b5645d0baa77b3b298d420f
+msgid ""
+"If you have `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`__ installed you "
+"can install ffmpeg system wide with it."
+msgstr ""
+"如果你有安裝\\ `Chocolatey <https://docs.chocolatey.org/en-us/choco/setup>`_\\，你可以用它安"
+"裝系統級的 FFmpeg。"
+
+#: ../../creator/video-export/ffmpeg.rst:30 4924b44756864f6aab2cbda42ea874ce
+msgid "Installing FFMPEG on Linux"
+msgstr "在 Linux 安裝 FFmpeg"
+
+#: ../../creator/video-export/ffmpeg.rst:32 839b6cb118084136a0721c4260dc704b
+msgid ""
+"Download FFMPEG from your system's package manager, on Ubuntu and Debian based systems the "
+"following command will install ffmpeg"
+msgstr ""
+"從你系統中的軟體套件管理系統下載。Ubuntu 或是基於 Debian 的系統可以使用以下命令進行安裝。"
+
+#: ../../creator/video-export/ffmpeg.rst:40 bacd484a86d249309a08fe25f33199bc
+msgid "Installing FFMPEG on macOS"
+msgstr "在 macOS 中安裝 FFmpeg"
+
+#: ../../creator/video-export/ffmpeg.rst:41 c6b20f1433054a00885fb09e4593520f
+msgid ""
+"FFMPEG can be installed on macOS through homebrew, which you can install here https://"
+"brew.sh/"
+msgstr "macOS 可以使用\\ `Homebrew <https://brew.sh/>`_\\ 安裝 FFmpeg。"
+
+#: ../../creator/video-export/ffmpeg.rst:43 6ae667d5c05140aa88ae7dcd05614856
+msgid "Once brew is setup you can run the following command to install ffmpeg to your system."
+msgstr "當 Homebrew 設定完畢，你可以運行以下命令來安裝 FFmpeg 至你的系統中。"

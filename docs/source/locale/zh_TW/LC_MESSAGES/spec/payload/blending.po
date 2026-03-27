@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 19:06+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../spec/payload/blending.rst:3 15f41d9b9acc463aad0133a3292fa2bc
+msgid "Blending"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:5 33e2d59d8f574a6aa1af68fdc1663e61
+msgid ""
+"Inochi2D allows for porter-duff blending modes to be applied to Part nodes "
+"and Composite nodes, these blending nodes affect how colors are mixed on "
+"compositing with the screen."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:6 d4b4758469cc4c6da31755c07d1ff3b6
+msgid ""
+"Additionally the special blending modes \"Clip to Lower\" and \"Slice from "
+"Lower\" are supported to provide a nicer looking but less flexible form of "
+"masking."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:13 078d0358c50b4d4796dba375f914fbc7
+msgid "Rendering equations"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:18 d928b81cd6f9406a9fc6dbc48ee66b72
+msgid "Mode"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:19 8857e364672c4d679593e17e65833167
+msgid "Equation"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:20 b702466785a44f07b7818eae2fb2fa57
+msgid "Src"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:21 361c6aafc4354a7e8b13020733370151
+msgid "Dst"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:22 514eaf003ac64899a5262d77af1ce8b7
+msgid "Src (Alpha)"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:23 0b8f96a18ea244ada8d775287e59d2b0
+msgid "Dst (Alpha)"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:24 ../../spec/payload/blending.rst:115
+#: 69c0c9d2a3a949a88511da1da257ab02 d133b13156f1447daf501672cd4485e2
+msgid "Normal"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:25 ../../spec/payload/blending.rst:31
+#: ../../spec/payload/blending.rst:37 ../../spec/payload/blending.rst:49
+#: ../../spec/payload/blending.rst:55 ../../spec/payload/blending.rst:61
+#: ../../spec/payload/blending.rst:73 ../../spec/payload/blending.rst:79
+#: ../../spec/payload/blending.rst:85 ../../spec/payload/blending.rst:91
+#: ../../spec/payload/blending.rst:97 3d5022c3033148da8fc4d2f14ce96585
+#: 3f240cee868b43f9bf187f8bccfdb1aa 6f0b9a7841bb48c2a57954b6956b8032
+#: 7cbcf97a61164670a23f646825268a48 8df54fad10174e5b91c9580cc00d9aca
+#: 90ff2742f7a54b208c830a8945c349fd add3c070c11c4b828755096e8f1e9ceb
+#: bcfcb94c34794fc38c8ec0fc34ae57e2 cdd2f7b68be44789a92e81afb1837be8
+#: d6364093929b4a20853da8500ac0debd f7bcff262d444370868793f72ce5ee4c
+msgid "Add"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:26 ../../spec/payload/blending.rst:38
+#: ../../spec/payload/blending.rst:45 ../../spec/payload/blending.rst:51
+#: ../../spec/payload/blending.rst:56 ../../spec/payload/blending.rst:58
+#: ../../spec/payload/blending.rst:62 ../../spec/payload/blending.rst:63
+#: ../../spec/payload/blending.rst:64 ../../spec/payload/blending.rst:69
+#: ../../spec/payload/blending.rst:76 ../../spec/payload/blending.rst:77
+#: 0295cc77ae474ea69d757189c9af67df 08df9e24c50043e99ebda8234fa165dd
+#: 119b655e95cd4edda1924d631020d276 150dcaac2ebb41be9eb7a36cee1f402c
+#: 52cca685c4574db1a6a1c278430cd87e 580e7d2d23f84e5fbe4a0bbb3f2aa602
+#: 5b67cba554064bbc806c8296b741499b 71bfd4d0073e4345a5f7dcb0c37e2a83
+#: a08610fba19f4cc6868da98097f507f5 a81f31a2bcec41e281686543c5e73a8d
+#: b1a75fd5869e4150b88a8f519e6fae92 cbc79d7190a7480092247ba2dfae0605
+msgid "1"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:27 ../../spec/payload/blending.rst:33
+#: ../../spec/payload/blending.rst:59 ../../spec/payload/blending.rst:65
+#: ../../spec/payload/blending.rst:81 ../../spec/payload/blending.rst:93
+#: ../../spec/payload/blending.rst:99 1dfd347d75c54073b9d9e7c3d13e4e79
+#: 2ec24fc4bc824bf2b93c9288c4335794 2fae55627a0d4338a663e1d4273dba5c
+#: 31209057b5b84f52ba4fa3ec245f7a96 49453021198b4b4cb0516f4864875f67
+#: a2199ff166c143a99fca2fef9555a5cc c42b791e6b44455d946239409405954c
+msgid "1-SrcAlpha"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:30 ../../spec/payload/blending.rst:116
+#: 5ab6c7bb0f964658a1274ef9db084335 f590e7e6c1244e55b4c07d2c2b690f92
+msgid "Multiply"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:32 ../../spec/payload/blending.rst:44
+#: ../../spec/payload/blending.rst:50 31119166d9fc459ab0fcc2186c9f7f96
+#: 53195e258f7d496fa3edc0855c234557 5a059b84a9ba4602b3765195f7846549
+msgid "DstColor"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:36 ../../spec/payload/blending.rst:117
+#: df02ae68f7494e1085a44c83810fbf97 f785f840cf2649a0a23efb6c6fe59649
+msgid "Screen"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:39 ../../spec/payload/blending.rst:57
+#: ../../spec/payload/blending.rst:75 150aa20d22b34a3a9633d1f847dc705c
+#: 7e343ec7ee3a43768c73699c4f44995d f38a11d1edb4405b9e602442c67a340c
+msgid "1-SrcColor"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:42 ../../spec/payload/blending.rst:118
+#: 59e5c9d351ec452b9412d9f80558001b c42cea76a71f4284900be5f9a56bb3fa
+msgid "Lighten"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:43 45b2cc44059e46b1bef1d99d57d81091
+msgid "Max"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:48 ../../spec/payload/blending.rst:119
+#: 15ffa938aa474b51b86409af10f93f8f d25a91dcfd3248a5a0378ff3fd1307fd
+msgid "Color Dodge"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:54 6bf49d91d6e44a0bbd7947a881084306
+msgid "Linear Dodge"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:60 928a656217794365b6e79201d79df827
+msgid "Add (Glow)"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:66 ../../spec/payload/blending.rst:120
+#: 745c5c1a317c4ca096b2dcfbdf512309 92b4cc68516c46a29d3e9661ab6d5284
+msgid "Subtract"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:67 37c7548d018843739f1b2ad91a9dfb29
+msgid "ReverseSubtract"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:68 ../../spec/payload/blending.rst:74
+#: ../../spec/payload/blending.rst:80 2f7397b8b9f64cfbb09ee255164801a0
+#: 46bfd523d40549058c8e25061648017e 86941cce15f74765a65b076a81d006f0
+msgid "1-DstColor"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:72 ../../spec/payload/blending.rst:131
+#: ../../spec/payload/blending.rst:159 1fbf56ef71764a8d9834a5d7f87ac158
+#: 5acc5a967fb544ecb8a045461776404c 8404285730124688bbc6046912159a70
+msgid "Exclusion"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:78 ../../spec/payload/blending.rst:121
+#: b4fe8e93411d435084f7a36b95b56a1a f7526ec0dd114e7ea1399cedc570882a
+msgid "Inverse"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:84 cbf5313a99dd40b1bf9136cd2a97bab8
+msgid "Destination In"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:86 ../../spec/payload/blending.rst:98
+#: 04d1c1c7ef6b44dcaa3b28dc2cebc0af abcf93103e23412796b89237215bce3c
+msgid "0"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:87 abd45b19689e44c58b291366e65dddc6
+msgid "SrcAlpha"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:90 16789865d8404ca6b882cd3af4bb3766
+msgid "Clip to Lower"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:92 cfd416ab13bb488ca0b2fef665f62abf
+msgid "DstAlpha"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:96 9b11412d93e24b25ac1d664c28597021
+msgid "Slice from Lower"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:109 75042d1a183a4f8e867bcd2aa4a7c7e8
+msgid "Blend Accuracy Extension"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:111 1f9c395ea6284df49b2dc85454ade775
+msgid ""
+"Inochi2D provides the ``I2D_BLEND_ACCURACY`` :doc:`extension </spec/inp/"
+"profiles>`, this extension is entirely implementation side."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:112 16d0469b3e534c898a8ac7dde40483e6
+msgid ""
+"If the Inochi2D implementation indicates support for this extension, it "
+"means that instead of emulating porter and duff blending modes, it will use "
+"GPU extensions to implement them properly."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:113 a345a2fa1f994703bac67a4577c9942d
+msgid "This extension affects the rendering of the following blending modes."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:123 6fb66937dfd442b4b084fa6aaa78bd71
+msgid ""
+"This extension additionally affects the rendering of the following blending "
+"modes if ``I2D_EXTENDED_BLEND_MODES`` is supported."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:125 ../../spec/payload/blending.rst:153
+#: a317a538b3c24a65aa48b5159990b0bd fcc70ba7f5e94f58ad8679f2888dce9a
+msgid "Overlay"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:126 ../../spec/payload/blending.rst:154
+#: 2860f3915b3348a682c1ec9bd161bf27 67e47a505abf486db0ec0f7d05482f61
+msgid "Darken"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:127 ../../spec/payload/blending.rst:155
+#: 7c730e57654242598c0a8e9da28516b8 ba16ad4d12d1405795261565a6dd3ad6
+msgid "Color Burn"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:128 ../../spec/payload/blending.rst:156
+#: 418b97d000924a5dbd8de5fd27607840 f28352a2f1f546a596c8ee0f040c9343
+msgid "Hard Light"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:129 ../../spec/payload/blending.rst:157
+#: 0432e620dd4c4e51b3509c6da3c6f852 ddcb5f7ecc81462e8fc2c172e903d02a
+msgid "Soft Light"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:130 ../../spec/payload/blending.rst:158
+#: 37dfc9c1332d413383d27c8a537365e1 87f8fae873234c7babb94b7e41e639a2
+msgid "Difference"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:133 6fdc93d7b066478fb439013798b9e6fb
+msgid ""
+"These blending modes use legacy blending if you have more than a Albedo "
+"output on some platforms."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:135 ../../spec/payload/blending.rst:163
+#: 02e12169df6046458bf6a908af240dfc 96728c053e0541bea99bc8f8fe65df7c
+msgid "**Implementation Notes**"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:137 795a75b9b5174a7dae1f7c738c4402a8
+msgid ""
+"This extension can be implemented in OpenGL via the "
+"`GL_KHR_blend_equation_advanced and GL_KHR_blend_equation_advanced_coherent "
+"<https://registry.khronos.org/OpenGL/extensions/KHR/"
+"KHR_blend_equation_advanced.txt>`__ extensions."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:138 3adcaac2759c4792979bf13e6011b78e
+msgid ""
+"This extension can be implemented in Vulkan via the "
+"`VK_EXT_blend_operation_advanced <https://registry.khronos.org/vulkan/specs/"
+"1.3-extensions/man/html/VK_EXT_blend_operation_advanced.html>`__ extension."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:139 13c8a33288a04b0b96aba61610e2a76e
+msgid ""
+"This extension can be implemented on tiler GPUs, such as PowerVR and Apple "
+"Silicon chips, via framebuffer fetch."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:141 ../../spec/payload/blending.rst:168
+#: 88335e9754cd4436b9a02c4f09d62848 f2f787a7f6724e999e51d546e2d0e00b
+msgid "This extension was introduced in Inochi2D 0.8 Standard."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:148 7b086d01c3fc4fe0ba5acf73215e5c37
+msgid "Extended Blend Modes"
+msgstr ""
+
+#: ../../spec/payload/blending.rst:150 a4f51b2f48ae4bd2979e5e64fdd58d22
+msgid ""
+"Inochi2D provides the ``I2D_EXTENDED_BLEND_MODES`` :doc:`extension </spec/"
+"inp/profiles>`."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:151 4c0b56087c3642cfaa6ebca7eae74bf0
+msgid "This extension adds support for the following blending modes."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:161 2ee4aaa17ab9477ca2cbd3f8a6f14cd8
+msgid "These blending modes are disabled if you have more than Albedo output."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:165 787c957af5ed4ab5942b0058fcd6f200
+msgid "This extension can be emulated by shaders using Texture Barriers."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:166 92ebc666eb3b41be9cfe160f34531fca
+msgid ""
+"This extension can be emulated by shaders using a ping-pong framebuffer "
+"setup, this is unoptimal."
+msgstr ""
+
+#: ../../spec/payload/blending.rst:169 358fe87fb346404b9fc8244009cc6de5
+msgid "This extension is influenced by ``I2D_BLEND_ACCURACY``."
+msgstr ""

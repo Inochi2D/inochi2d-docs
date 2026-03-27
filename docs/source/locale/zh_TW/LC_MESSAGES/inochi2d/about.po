@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 18:58+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../inochi2d/about.rst:3 10b45c53028546908c882ba6f58a67c1
+msgid "About Inochi2D"
+msgstr "關於 Inochi2D"
+
+#: ../../inochi2d/about.rst:5 17cf7f04947f40ac920154a8cfbabf42
+msgid ""
+"Inochi2D is a library for realtime 2D puppet animation and the reference "
+"implementation of the Inochi2D Puppet standard."
+msgstr ""
+"Inochi2D 為一個即時模擬 2D 模型的程式庫及 Inochi2D 角色的參考實作 (reference "
+"implementation)。"
+
+#: ../../inochi2d/about.rst:6 dea96398b4084738acb57a01aff22a2d
+msgid ""
+"It works by deforming 2D meshes created from layered art at runtime based on "
+"parameters, this deformation tricks the viewer in to seeing 3D depth and "
+"movement in the 2D art."
+msgstr ""
+"透過參數控制，讓圖層化藝術素材 (layered art) 生成出的 2D 網格在執行時變形，產生"
+"錯覺，使觀看者可以在 2D 藝術中感受到 3D 的空間深度。"
+
+#: ../../inochi2d/about.rst:8 be132c7003004d82ad010e9c29469184
+msgid ""
+"The Inochi2D Project provides official tools for manipulating and using these "
+"models for VTubing, via :doc:`Inochi Creator </creator/about>` "
+"and :doc:`Inochi Session </session/index>`."
+msgstr ""
+"Inochi2D 專案透過 \\ :doc:`Inochi Creator </creator/about>`\\  以及 "
+"\\ :doc:`Inochi Session </session/index>`\\  提供使用者操控及使用這些模型的官方"
+"工具。"
+
+#: ../../inochi2d/about.rst:10 cd9760003f9349b79777340034f743fa
+msgid ""
+"The Inochi2D section covers the specification for implementing your own "
+"instance of Inochi2D, if you wish to know more about the API of the Inochi2D D "
+"package, see the `dpldocs page <https://inochi2d.dpldocs.info/v0.7.2/"
+"inochi2d.html>`__."
+msgstr ""
+"Inochi2D 區塊涵蓋了實作 Inochi2D 實例的相關規範，如果你想要知道更多 Inochi2D D "
+"套件的 API，請參閱 \\ `dpldocs 頁面 <https://inochi2d.dpldocs.info/v0.7.2/"
+"inochi2d.html>`__\\。"

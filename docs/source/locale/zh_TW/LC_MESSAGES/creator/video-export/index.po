@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 18:57+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../creator/video-export/index.rst:3
+#: ../../creator/video-export/index.rst:30 64fdd7ebbe824bd4ad394bf8d79dfbff
+msgid "Exporting Video"
+msgstr "匯出影片"
+
+#: ../../creator/video-export/index.rst:5 220eb07a91d14958b3b6ed9fc7bf76fb
+msgid ""
+"The following topic explains how to set up Inochi Creator for video "
+"export and how to export video with it."
+msgstr "以下我們將教你如何設定並使用 Inochi Creator 來匯出影片。"
+
+#: ../../creator/video-export/index.rst:15 37f4c8c7738a4c48bd1b38f05c650863
+msgid ""
+"FFMPEG is needed for video export! Without it the option will be grayed "
+"out."
+msgstr ""
+"匯出影片需要 FFmpeg！如果沒有安裝，選項將會呈現灰色（無法點擊）的狀態。"
+
+#: ../../creator/video-export/index.rst:17 9c71485d530b418181a0e6f6cb9f4d0b
+msgid ""
+"If you're not sure whether ffmpeg is installed on your system you can "
+"run the following in your command prompt/terminal!"
+msgstr ""
+"如果你不確定你的系統內有沒有安裝 FFmpeg，你可以在你的終端機裡運行這行命"
+"令！"
+
+#: ../../creator/video-export/index.rst:25 24bc71c6bb4741b99a7e8236875b585f
+msgid ""
+"If FFMPEG is not installed continue to the :doc:`Installing FFMPEG "
+"<ffmpeg>` section."
+msgstr "如果你沒有安裝 FFmpeg，請前往 \\ :doc:`安裝 FFmpeg <ffmpeg>` \\。"
+
+#: ../../creator/video-export/index.rst:27 3e043e20b30c4dec83e58ede03f418da
+msgid ""
+"Otherwise continue to the :doc:`The Export Video Dialog <exporting>` "
+"section."
+msgstr "如果你已經安裝完畢，請前往 \\ :doc:`影片輸出視窗 <exporting>`\\。"

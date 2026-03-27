@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 17:05+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../creator/video-export/exporting.rst:3 6824abe535ef4f05b694922abf4479d6
+msgid "The Export Video Dialog"
+msgstr "影片輸出視窗"
+
+#: ../../creator/video-export/exporting.rst:7 2e975d51ec92414d87c3079c6c2b45d4
+msgid ""
+"The video export dialog allows you to specify settings for the exported "
+"video."
+msgstr "影片輸出視窗可供你指定匯出影片的設定。"
+
+#: ../../creator/video-export/exporting.rst:9 7b21bd0c26914f74b06eda14e30ddf22
+msgid ""
+"Some settings may be discarded due to incompatibility with the output file "
+"format, such as discarding transparency for opaque video formats."
+msgstr ""
+"有些設定可能會因為輸出影片格式無法相容而無法使用，例如：透明度選項無法在不透"
+"明影片格式中使用。"
+
+#: ../../creator/video-export/exporting.rst:19 3cb1a5305d7048e38f595f6d647a87c4
+msgid ""
+"You will need at least 1 animation and 1 camera in your scene to export "
+"video!"
+msgstr "欲輸出影片，你需要至少一個動畫及一個相機在你的場景裡。"
+
+#: ../../creator/video-export/exporting.rst:21 62c4be774ece49f580cc738a523c8d0d
+msgid "Otherwise you just get a sad error box telling you to go do that."
+msgstr "否則，你只會得到一個錯誤訊息通知你需要新增動畫及相機。"
+
+#: ../../creator/video-export/exporting.rst:26 0a81380b4b784f42896566a25605200f
+msgid "Starting an Export"
+msgstr "開始輸出"
+
+#: ../../creator/video-export/exporting.rst:28 2dfb19ed8fc947c7bb03cdff85cf4779
+msgid "To start an export, go to ``File->Export->Video`` from the main menu."
+msgstr "欲開始輸出，在主選單中點擊\\ ``檔案->輸出->影片``\\。"
+
+#: ../../creator/video-export/exporting.rst:30 7c5b8f4f1a3146d69af10e319ae97ef8
+msgid ""
+"You will then be presented with a dialog asking you where you wish to save "
+"the video file."
+msgstr "之後，你將會看到一個視窗詢問你輸出影片之儲存位置。"
+
+#: ../../creator/video-export/exporting.rst:32 5ea4adc5f8e74e6db06a4d1b425f8a4e
+msgid "If the option is grayed out, see :doc:`Installing FFMPEG <ffmpeg>`."
+msgstr "如果選項為灰色，請\\ :doc:`安裝 FFmpeg <ffmpeg>`\\。"
+
+#: ../../creator/video-export/exporting.rst:37 e7d1d40087a842eaba9fdd1212998d92
+msgid "Camera"
+msgstr "相機"
+
+#: ../../creator/video-export/exporting.rst:39 98c0e69dc39b4476b7fc22226bb0bf1f
+msgid ""
+"The following section allows you to adjust some settings about the camera "
+"for export."
+msgstr "以下的教學可供你調整相機的設定用於輸出。"
+
+#: ../../creator/video-export/exporting.rst:42 2335b0a8a2fe41a38b210e43ecde0e7c
+msgid "Camera dropdown"
+msgstr "相機下拉選單"
+
+#: ../../creator/video-export/exporting.rst:44 b5d96c288bcb43729d5ce36d32d421f4
+msgid ""
+"The camera dropdown lets you select which camera to use, if the camera is "
+"affected by the Animation, then you can export video with zooms, pans, etc."
+msgstr ""
+"相機下拉選單可供你選擇要使用的相機。如果相機有設定相機位移，匯出的影片便能包"
+"含縮放、平移等運鏡效果。"
+
+#: ../../creator/video-export/exporting.rst:47 c6f0723b4d4f4f0694b4a408c6f12540
+msgid "Allow Transparency"
+msgstr "允許透明"
+
+#: ../../creator/video-export/exporting.rst:49 73a736608e7442cd8a8c8495f277d2bb
+msgid ""
+"Whether Inochi Creator should try to export the background with "
+"transparency, only some formats and codecs support this, though!"
+msgstr ""
+"設定 Inochi Creator 是否要輸出背景透明的影片。需要注意的是，此設定只有支援特"
+"定編碼及格式！"
+
+#: ../../creator/video-export/exporting.rst:52 21c88c70014d45b8b816dcdf7fd74ac3
+msgid "Use Post Processing"
+msgstr "啟用後期處理"
+
+#: ../../creator/video-export/exporting.rst:54 a9e562f68b25494991407e8dadcec2d9
+msgid ""
+"Whether Inochi Creator should use the scene lighting in the exported video, "
+"this allows your model to have glowing elements, etc."
+msgstr ""
+"設定 Inochi Creator 是否要在匯出的影片中使用場景燈光，這可以讓你的模型呈現發"
+"光等視覺效果。"
+
+#: ../../creator/video-export/exporting.rst:59 affe09a7198944da89f6ea1d0c2a2dd2
+msgid "Output"
+msgstr ""
+
+#: ../../creator/video-export/exporting.rst:62 8ff29eb9796d45f588bb6c1e6e7ac8e1
+msgid "Animation dropdown"
+msgstr "動畫下拉選單"
+
+#: ../../creator/video-export/exporting.rst:64 186f174faf384a5381f86efda6286b39
+msgid "Lets you select which animation to export to file."
+msgstr "設定要輸出到影片的動畫。"
+
+#: ../../creator/video-export/exporting.rst:67 31fb03aebaea4e1c9bb422a8b6c41c40
+msgid "Loops"
+msgstr "預覽"
+
+#: ../../creator/video-export/exporting.rst:69 39f9dd4ed94f484e8c0f21ed5fbf8397
+msgid ""
+"How many times the main section of the animation should be looped, setting "
+"this value to 0 is semantically the same as setting it to 1."
+msgstr "設定主動畫重複的次數。設定此數值為0與1的效果相同。"
+
+#: ../../creator/video-export/exporting.rst:72 0de3dfe20b534af0909c768f6d8a4438
+msgid "Framerate"
+msgstr "影格率"
+
+#: ../../creator/video-export/exporting.rst:74 b2ad5ed1b4cc4dd38310ed2d609e5511
+msgid "The framerate of the video file to export"
+msgstr "設定輸出影片的影格率。"
+
+#: ../../creator/video-export/exporting.rst:77 ee7b8c5dd50c4c98ad7a39ae1b8a83c0
+msgid "Lock to Animation Framerate"
+msgstr "鎖定影格率到動畫影格率"
+
+#: ../../creator/video-export/exporting.rst:79 dbd10753a4b544419a1219aa2429a9c8
+msgid ""
+"Disables smoothing of mismatched framerates between video export and "
+"animation framerate."
+msgstr "當影片匯出影格率與動畫影格率不符時，停用平滑效果。"
+
+#: ../../creator/video-export/exporting.rst:82 308dff5fe7aa4a30abdbf94eff662bbd
+msgid "Codec"
+msgstr "編碼"
+
+#: ../../creator/video-export/exporting.rst:84 00735cdf42bc45af8c0a7371892f17a8
+msgid ""
+"Which video codec to use for export, by default Inochi Creator will try to "
+"automatically infer the codec."
+msgstr ""
+"設定輸出影片時要使用的影片編碼，Inochi Creator 將會嘗試自動偵測影片編碼作為預"
+"設。"
+
+#: ../../creator/video-export/exporting.rst:86 f7646b6837ac436f91024ef1149a2312
+msgid ""
+"Eg. for H.264 video you'll want to export an mp4 file, with the H.264 codec "
+"selected in the list."
+msgstr ""
+"例如：對於 H.264 影片，你將會將影片輸出為 mp4 檔案，Inochi Session 將會自動偵"
+"測 H.264 編碼輸出。"
+
+#: ../../creator/video-export/exporting.rst:97 a775154738984d38ab943b7e92deafdd
+msgid ""
+"The assumptions Inochi Creator makes with the Automatic option may be wrong!"
+msgstr "Inochi Creator 所偵測的影片編碼可能是錯誤的！"
+
+#: ../../creator/video-export/exporting.rst:99 bab92f0a930a4028a779e82daf6d6fe4
+#, python-format
+msgid ""
+"If you want to be 100% sure that Inochi Creator uses the right codec, please "
+"set it from the list!"
+msgstr ""
+"如果你想要100%確定 Inochi Creator 使用正確的編碼輸出，請從下拉選單中選擇！"

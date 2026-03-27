@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 18:57+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../creator/nodes/puppet.rst:3 5e52a8116c7544c9bc11a9e272d21fe0
+msgid "Puppet"
+msgstr "模型"
+
+#: ../../creator/nodes/puppet.rst:9 1b1fcfa793584bcdbbe7116f88518724
+msgid ""
+"The puppet node is a special node that you can not move. It contains "
+"properties for model information, model-wide settings such as physics system "
+"options and rendering options."
+msgstr ""
+"模型 (Puppet) 節點是個無法移動的特殊節點類型。它包含了此模型的資訊，及物理系統"
+"或是渲染等關於整體模型的設定。"
+
+#: ../../creator/nodes/puppet.rst:14 bea1772dc96345f9879b259b8486ed76
+msgid "General Info & Licensing"
+msgstr "一般資訊及授權"
+
+#: ../../creator/nodes/puppet.rst:16 e818f706c38e4edfa9edb642c049f8b6
+msgid ""
+"These sections stores general information that most software reading the model "
+"will show to the user."
+msgstr "這兩個區塊儲存了大部分軟體打開後會提供給使用者的資料。"
+
+#: ../../creator/nodes/puppet.rst:18 676816dacd284a67acabcfe5319bbd9e
+msgid ""
+"As for licensing, note that unlike competing software, we do not claim any "
+"form of license or ownership over the models produced with our software."
+msgstr ""
+"在授權方面，請注意，與同類軟體不同，我們不會聲稱擁有您使用本軟體製作之模型的任"
+"何權利或所有權。"
+
+#: ../../creator/nodes/puppet.rst:20 81d107fef8734c3e948289dad5863245
+msgid ""
+"As such you are free to specify any license you want and have to enforce said "
+"license yourself."
+msgstr "因此，你可以自行指定授權類型，但你也需要自行維護該授權的執行。"
+
+#: ../../creator/nodes/puppet.rst:25 4c1d4ad505b74658bdd4fdbcf3315337
+msgid "Physics Globals"
+msgstr "全域物理"
+
+#: ../../creator/nodes/puppet.rst:27 aef8062eafc94b81bee3cbc34b5f3f4e
+msgid "This section stores settings related to the physics handling of the model"
+msgstr "這個區塊儲存的是關於此模型的物理設定。"
+
+#: ../../creator/nodes/puppet.rst:30 c32aa928516445568d225a218153eee5
+msgid "Pixels per meter"
+msgstr "像素/公尺"
+
+#: ../../creator/nodes/puppet.rst:32 9c204c59b55a460289d99fa59c2650a6
+msgid ""
+"How many pixels count as 1 meter in the physics system. You can adjust this "
+"value to match the physics to the canon height of the character, or otherwise "
+"to your liking."
+msgstr ""
+"設定物理系統判斷多少像素代表一公尺。你可以調整數值來符合你的模型的設定身高，或"
+"者依喜好自行調整。"
+
+#: ../../creator/nodes/puppet.rst:35 6624cbb225fa425c94b907c38ff33916
+msgid "Gravity"
+msgstr "重力"
+
+#: ../../creator/nodes/puppet.rst:37 11fb735a88734dfd985bfcabbf096811
+msgid ""
+"How strong the gravity is for the model, by default it uses Earth gravity of "
+"9.8 m/s squared."
+msgstr "設定模型的重力大小。預設是地球重力(9.8 m/s^2)。"
+
+#: ../../creator/nodes/puppet.rst:42 2829ce08375546b3b377016ff2a89bb9
+msgid "Rendering Settings"
+msgstr "渲染設定"
+
+#: ../../creator/nodes/puppet.rst:44 f23e3f19b86149b7b991bee51ee1f105
+msgid "This section stores settings related to the rendering of the model."
+msgstr "這個區塊儲存關於此模型的渲染設定。"
+
+#: ../../creator/nodes/puppet.rst:47 fdabbb20f9394ad4b5bc9bae30fdb0b7
+msgid "Use Point Filtering"
+msgstr "使用點篩選"
+
+#: ../../creator/nodes/puppet.rst:49 f65ff560ffd54a0d9a5c37885def6b31
+msgid ""
+"If you're making a pixel art model, this setting will force the rendering to "
+"preserve the hard edges of pixels. This will allow you to save texture memory "
+"by requiring a lot less scaling of your model."
+msgstr ""
+"如果你在製作像素風模型 (pixel art model)，開啟這個設定可以強迫程式渲染時保留硬"
+"邊。這能讓您無需大幅縮放模型，進而有效節省紋理記憶體。"
+
+#: ../../creator/nodes/puppet.rst:51 5efe5d6654284bc798ea17208c363b80
+msgid ""
+"Competing packages such as Live2D normally requires a ~5000% (50x) scale-up of "
+"your model to look good, Inochi2D can get away with 200% (2x) if you turn this "
+"option on."
+msgstr ""
+"同類軟體例如 Live2D 通常需要約 5000%（50倍）以上的縮放倍率才能讓模型清晰。開啟"
+"此選項後，Inochi2D 僅需 200%（2倍）縮放倍率即可達到同等的效果。"

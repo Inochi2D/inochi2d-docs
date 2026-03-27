@@ -3,3 +3,7 @@
 .DS_Store
 
 docs/build
+docs/_build
+docs/sphinx_env
+docs/source/build/
+docs/source/**/*.mo

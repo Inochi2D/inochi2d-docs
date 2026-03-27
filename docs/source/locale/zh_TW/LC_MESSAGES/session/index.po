@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 19:06+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../session/index.rst:3 ../../session/index.rst:7
+#: e7261803c88b482cb624d12e6d880c0f
+msgid "Inochi Session"
+msgstr ""
+
+#: ../../session/index.rst:5 87819bd09ec247339e5851891f3a4efa
+msgid ""
+"Due to a planned massive restructuring of Inochi Session, documentation "
+"for it will be sparse at the moment, sorry!"
+msgstr ""
+"由於目前 Inochi Session 正在進行大規模調整及改進，此處將暫時沒有內容，非"
+"常抱歉！"

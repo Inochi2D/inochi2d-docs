@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Luna the Foxgirl
+# This file is distributed under the same license as the Inochi2D package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# This translation is based on python-docs-zh-tw translation regulation.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inochi2D\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-12 21:40+0800\n"
+"PO-Revision-Date: 2026-03-27 18:56+0800\n"
+"Last-Translator: Thinker8832 <bojun423@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../../creator/nodes/index.rst:3 ../../creator/nodes/index.rst:49
+#: bf9a5be9bc9a488ca4c9cdd93f0e039b
+msgid "Nodes"
+msgstr "節點"
+
+#: ../../creator/nodes/index.rst:5 0f872aaa964f46379a5fbd73e5a82388
+msgid ""
+"Inochi2D is based of a concept called a `Scene Graph <https://en.wikipedia.org/wiki/"
+"Scene_graph>`__."
+msgstr ""
+"Inochi2D 是根據\\ `場景圖 (Scene Graph) <https://en.wikipedia.org/wiki/Scene_graph>`__\\  "
+"的概念製作的。"
+
+#: ../../creator/nodes/index.rst:15 23e9f92b1b5b417db77d7544ea604104
+msgid ""
+"If you've used a modern game engine such as Godot, Unity, Unreal Engine or 3D modeling "
+"software such as Blender you may already be familiar with the concept!"
+msgstr ""
+"如果你以前有使用過現代遊戲引擎像是 Godot、Unity、Unreal Engine 或者是 3D 建模軟體例如 "
+"Blender，你可能會知道這個概念！"
+
+#: ../../creator/nodes/index.rst:17 26bc17ebb54947c3834f3c1dae2c4fcf
+msgid "Think of Godot Nodes, or Unity GameObjects as the scene graph."
+msgstr "把它想像成是 Godot 的 Node 或是 Unity 的 GameObjects。"
+
+#: ../../creator/nodes/index.rst:25 857faf1523384740932fe83d6285369b
+msgid "The scene graph is accessed via the Nodes panel, which displays them in a tree view."
+msgstr "場景圖可以透過節點視窗進行操作，該視窗以樹狀來展現場景圖。"
+
+#: ../../creator/nodes/index.rst:27 ac906a438e854c77b42e23a2a6904bae
+msgid "Each item in the tree is called *a Node*, each Node has a type on top of that."
+msgstr "每一個在樹裡的物體稱為一個\\ *節點*\\。"
+
+#: ../../creator/nodes/index.rst:29 4652f01b841d42df85c65d98f5ca2b84
+msgid ""
+"Every node has the concept of a Transform in common. A transform contains information "
+"about the position, rotation, scale and sorting index of the node."
+msgstr ""
+"每個節點都具備共通的「變換」(Transform) 概念。「變換」包含了該節點的位置、旋轉、縮放以及排"
+"序索引等資訊。"
+
+#: ../../creator/nodes/index.rst:31 e6044dcf129d46a88ede90f8683dc1c4
+msgid ""
+"A node which is attached to another node is called a *child Node*, and the Node which the "
+"child is attached to is called the *parent Node*."
+msgstr ""
+"連接到另一個節點的節點稱為「子節點」(Child Node)，而該子節點所連接的對象則稱為「父節點」"
+"(Parent Node)。"
+
+#: ../../creator/nodes/index.rst:33 7d85c81d79464c9a913d6866e45fca2f
+msgid ""
+"Child Nodes inherit the position, rotation, scale and sorting index of their parents, "
+"which means if a parent nodes moves around, so will its children move around relative to "
+"it."
+msgstr ""
+"子節點會繼承父節點的位置、旋轉、縮放及排序索引。這表示當你移動父節點時，子節點也會跟著一起"
+"移動。"
+
+#: ../../creator/nodes/index.rst:35 cb87702d806445f5b3fb5ff638fafb71
+msgid "The icon that a node has is used to denote its type to you."
+msgstr "節點上的圖示是用來跟你說明它的節點種類。"
+
+#: ../../creator/nodes/index.rst:43 62ba8da87c824aad8f56a14d102e6cbc
+msgid ""
+"The properties of a Node are accessed via the Inspector panel, depending on the type of "
+"the Node, the items in the Inspector panel will change."
+msgstr "節點屬性都可以藉由檢視器進行修改，檢視器中的內容會依據節點種類的不同而有所差異。"
+
+#: ../../creator/nodes/index.rst:45 53ad08195bf74f13b20f4b0131245bbd
+msgid ""
+"The Inspector Panel's contents are divided in to sections which can be collapsed by "
+"clicking their header, Each section contains settings for a specific subtype of that Node."
+msgstr ""
+"檢視器中的內容分為多個區塊，你可以按下標題將它們收合起來。每個區塊都包含了該節點特定子類型"
+"的相關設定。"
+
+#: ../../creator/nodes/index.rst:47 9b87d40eeb5a464484ad81210a6c03fc
+msgid ""
+"For example, a *Part* Node is based on the *Drawable* Node type, which in turn is based on "
+"the *Node* type. As such you will see properties for Node (Transform), Drawable and Part "
+"as sections."
+msgstr ""
+"例如，\\ *組件*\\節點就是以\\ *可繪製*\\為基礎，而\\ *可繪製*\\又是衍生自\\ *節點*\\類型"
+"上，因此，你會在面板中看到 Node（變換 Transform）、Drawable 和 Part 各自的屬性區段。"
